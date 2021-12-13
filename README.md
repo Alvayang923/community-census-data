@@ -1,6 +1,9 @@
 community_ry2403
 =============
 
+Final Project of Modern Data Struture (GR5072)
+=============
+
 A Python package for aggregating community-level Census Data.
 
 Install from: https://test.pypi.org/project/community-ry2403/
