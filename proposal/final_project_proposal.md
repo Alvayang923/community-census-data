@@ -22,6 +22,37 @@ To deal with this problem and make it more convient to gain community-level data
 - allow users to customize the report level either ZIP or ZCTA
 - provide some summary statistics and visualization
 
+
+#### The expected format of functions: 
+
+* community.find_variable( keyword = 'polulation' )
+
+  Parameter: keyword
+  - input the search keywords and out put the variable code in the census data
+  - allow to input a list of strings
+ 
+* community.search ( level = 'ZCTA', year = '2019', variable = '{the variable code}', area = '{ZIP Code}', industry = 'total')
+ 
+  Parameter:
+  - level (optional): 'ZCTA' by default or 'ZIP'.      
+     ask user to specify the report level
+     
+  - year: 2019 by default.   
+     starting from 1994 to 2019.         
+     allow users to specity the year of data.
+   
+  - variable: 
+      specify the variables they want to query         
+      allow a list of strings
+    
+  - area :
+      the ZIP or ZCTA code for one area users want to specify
+      
+  - industry (optional):  'total' by default     
+        Allow users to specify the industry of data with NAICS2017 industry code.     
+        Once specified, only data from Business Patterns are queried.
+        
+      
 #### Links to data sources / API etc
 
 1. American Community Survey 5-Year Data, ACS (2009-2019) (ZCTA level)
@@ -39,8 +70,10 @@ To deal with this problem and make it more convient to gain community-level data
 to gain the variable NAME & DP02_0001E for ZCTA 00601 in state 72
 
 
-2. ZIP Codes Business Patterns, ZCBP (1994-2018)(Zip Code-Level)
+2. ZIP Codes Business Patterns, ZCBP (1994-2018)(Zip Code-Level)    
+
 Starting with reference year 2019, ZIP Code Business Patterns data will be available as part of the County Business Patterns (CBP) API.
+
 * API Home Page: https://www.census.gov/data/developers/data-sets/cbp-nonemp-zbp/zbp-api.html
 * Example Calls: https://api.census.gov/data/2018/zbp.html
 * Authentication: This API is an open resource and does not require a key to access.
@@ -51,9 +84,10 @@ Starting with reference year 2019, ZIP Code Business Patterns data will be avail
   - for: specify the geography level 
 
   - Example: api.census.gov/data/2018/zbp?get=ESTAB,EMPSZES&for=zipcode:20002&NAICS2017=72
+
 to gain the variable ESTAB & EMPSZES for zipcode 20002 for the industry code NAICS2017 72
 
-3. County Business Patterns, CBP (2009-2019)
+3. County Business Patterns, CBP (2009-2019)(Zip Code-Level)  
 * API Home Page: https://www.census.gov/data/developers/data-sets/cbp-nonemp-zbp/cbp-api.html
 * Example Calls: https://api.census.gov/data/2019/cbp.html
 * Authentication: This API is an open resource and does not require a key to access.
@@ -64,6 +98,7 @@ to gain the variable ESTAB & EMPSZES for zipcode 20002 for the industry code NAI
   - for: specify the geography level 
 
   - Example: api.census.gov/data/2019/cbp?get=ESTAB,LFO&for=zipcode:20002&NAICS2017=72
+
 to gain the variable ESTAB & LFO for zipcode 20002 for the industry code NAICS2017 72, i.e Total number of establishments for all legal forms of organization, in California for Accommodation and food services industry.
 
 #### Outline the technical steps / challenges you plan to address and include in your submission
@@ -75,4 +110,13 @@ to gain the variable ESTAB & LFO for zipcode 20002 for the industry code NAICS20
 * Use Regex to search patterns in variables, allowing users to look up available variables in dataset with fuzzy search
 * Provide summary statistics on the community-level data, and visualize the results
 * Wrap up everything in a Python package
+
+
+
+        
+    
+        
+      
+ 
+
 

@@ -1,0 +1,23 @@
+:py:mod:`community_ry2403`
+==========================
+
+.. py:module:: community_ry2403
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   community_ry2403/index.rst
+
+
+Package Contents
+----------------
+
+.. py:data:: __version__
+   
+
+   
+

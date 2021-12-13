@@ -1,0 +1,1361 @@
+index,Name,labels,estimate
+12,DP02_0001E,HOUSEHOLDS BY TYPE!!Total households,estimate
+13,DP02_0001PE,HOUSEHOLDS BY TYPE!!Total households,percent
+14,DP02_0002E,HOUSEHOLDS BY TYPE!!Total households!!Married-couple family,estimate
+15,DP02_0002PE,HOUSEHOLDS BY TYPE!!Total households!!Married-couple family,percent
+16,DP02_0003E,HOUSEHOLDS BY TYPE!!Total households!!Married-couple family!!With own children of the householder under 18 years,estimate
+17,DP02_0003PE,HOUSEHOLDS BY TYPE!!Total households!!Married-couple family!!With own children of the householder under 18 years,percent
+18,DP02_0004E,HOUSEHOLDS BY TYPE!!Total households!!Cohabiting couple household,estimate
+19,DP02_0004PE,HOUSEHOLDS BY TYPE!!Total households!!Cohabiting couple household,percent
+20,DP02_0005E,HOUSEHOLDS BY TYPE!!Total households!!Cohabiting couple household!!With own children of the householder under 18 years,estimate
+21,DP02_0005PE,HOUSEHOLDS BY TYPE!!Total households!!Cohabiting couple household!!With own children of the householder under 18 years,percent
+22,DP02_0006E,"HOUSEHOLDS BY TYPE!!Total households!!Male householder, no spouse/partner present",estimate
+23,DP02_0006PE,"HOUSEHOLDS BY TYPE!!Total households!!Male householder, no spouse/partner present",percent
+24,DP02_0007E,"HOUSEHOLDS BY TYPE!!Total households!!Male householder, no spouse/partner present!!With own children of the householder under 18 years",estimate
+25,DP02_0007PE,"HOUSEHOLDS BY TYPE!!Total households!!Male householder, no spouse/partner present!!With own children of the householder under 18 years",percent
+26,DP02_0008E,"HOUSEHOLDS BY TYPE!!Total households!!Male householder, no spouse/partner present!!Householder living alone",estimate
+27,DP02_0008PE,"HOUSEHOLDS BY TYPE!!Total households!!Male householder, no spouse/partner present!!Householder living alone",percent
+28,DP02_0009E,"HOUSEHOLDS BY TYPE!!Total households!!Male householder, no spouse/partner present!!Householder living alone!!65 years and over",estimate
+29,DP02_0009PE,"HOUSEHOLDS BY TYPE!!Total households!!Male householder, no spouse/partner present!!Householder living alone!!65 years and over",percent
+30,DP02_0010E,"HOUSEHOLDS BY TYPE!!Total households!!Female householder, no spouse/partner present",estimate
+31,DP02_0010PE,"HOUSEHOLDS BY TYPE!!Total households!!Female householder, no spouse/partner present",percent
+32,DP02_0011E,"HOUSEHOLDS BY TYPE!!Total households!!Female householder, no spouse/partner present!!With own children of the householder under 18 years",estimate
+33,DP02_0011PE,"HOUSEHOLDS BY TYPE!!Total households!!Female householder, no spouse/partner present!!With own children of the householder under 18 years",percent
+34,DP02_0012E,"HOUSEHOLDS BY TYPE!!Total households!!Female householder, no spouse/partner present!!Householder living alone",estimate
+35,DP02_0012PE,"HOUSEHOLDS BY TYPE!!Total households!!Female householder, no spouse/partner present!!Householder living alone",percent
+36,DP02_0013E,"HOUSEHOLDS BY TYPE!!Total households!!Female householder, no spouse/partner present!!Householder living alone!!65 years and over",estimate
+37,DP02_0013PE,"HOUSEHOLDS BY TYPE!!Total households!!Female householder, no spouse/partner present!!Householder living alone!!65 years and over",percent
+38,DP02_0014E,HOUSEHOLDS BY TYPE!!Total households!!Households with one or more people under 18 years,estimate
+39,DP02_0014PE,HOUSEHOLDS BY TYPE!!Total households!!Households with one or more people under 18 years,percent
+40,DP02_0015E,HOUSEHOLDS BY TYPE!!Total households!!Households with one or more people 65 years and over,estimate
+41,DP02_0015PE,HOUSEHOLDS BY TYPE!!Total households!!Households with one or more people 65 years and over,percent
+42,DP02_0016E,HOUSEHOLDS BY TYPE!!Total households!!Average household size,estimate
+43,DP02_0016PE,HOUSEHOLDS BY TYPE!!Total households!!Average household size,percent
+44,DP02_0017E,HOUSEHOLDS BY TYPE!!Total households!!Average family size,estimate
+45,DP02_0017PE,HOUSEHOLDS BY TYPE!!Total households!!Average family size,percent
+46,DP02_0018E,RELATIONSHIP!!Population in households,estimate
+47,DP02_0018PE,RELATIONSHIP!!Population in households,percent
+48,DP02_0019E,RELATIONSHIP!!Population in households!!Householder,estimate
+49,DP02_0019PE,RELATIONSHIP!!Population in households!!Householder,percent
+50,DP02_0020E,RELATIONSHIP!!Population in households!!Spouse,estimate
+51,DP02_0020PE,RELATIONSHIP!!Population in households!!Spouse,percent
+52,DP02_0021E,RELATIONSHIP!!Population in households!!Unmarried partner,estimate
+53,DP02_0021PE,RELATIONSHIP!!Population in households!!Unmarried partner,percent
+54,DP02_0022E,RELATIONSHIP!!Population in households!!Child,estimate
+55,DP02_0022PE,RELATIONSHIP!!Population in households!!Child,percent
+56,DP02_0023E,RELATIONSHIP!!Population in households!!Other relatives,estimate
+57,DP02_0023PE,RELATIONSHIP!!Population in households!!Other relatives,percent
+58,DP02_0024E,RELATIONSHIP!!Population in households!!Other nonrelatives,estimate
+59,DP02_0024PE,RELATIONSHIP!!Population in households!!Other nonrelatives,percent
+60,DP02_0025E,MARITAL STATUS!!Males 15 years and over,estimate
+61,DP02_0025PE,MARITAL STATUS!!Males 15 years and over,percent
+62,DP02_0026E,MARITAL STATUS!!Males 15 years and over!!Never married,estimate
+63,DP02_0026PE,MARITAL STATUS!!Males 15 years and over!!Never married,percent
+64,DP02_0027E,"MARITAL STATUS!!Males 15 years and over!!Now married, except separated",estimate
+65,DP02_0027PE,"MARITAL STATUS!!Males 15 years and over!!Now married, except separated",percent
+66,DP02_0028E,MARITAL STATUS!!Males 15 years and over!!Separated,estimate
+67,DP02_0028PE,MARITAL STATUS!!Males 15 years and over!!Separated,percent
+68,DP02_0029E,MARITAL STATUS!!Males 15 years and over!!Widowed,estimate
+69,DP02_0029PE,MARITAL STATUS!!Males 15 years and over!!Widowed,percent
+70,DP02_0030E,MARITAL STATUS!!Males 15 years and over!!Divorced,estimate
+71,DP02_0030PE,MARITAL STATUS!!Males 15 years and over!!Divorced,percent
+72,DP02_0031E,MARITAL STATUS!!Females 15 years and over,estimate
+73,DP02_0031PE,MARITAL STATUS!!Females 15 years and over,percent
+74,DP02_0032E,MARITAL STATUS!!Females 15 years and over!!Never married,estimate
+75,DP02_0032PE,MARITAL STATUS!!Females 15 years and over!!Never married,percent
+76,DP02_0033E,"MARITAL STATUS!!Females 15 years and over!!Now married, except separated",estimate
+77,DP02_0033PE,"MARITAL STATUS!!Females 15 years and over!!Now married, except separated",percent
+78,DP02_0034E,MARITAL STATUS!!Females 15 years and over!!Separated,estimate
+79,DP02_0034PE,MARITAL STATUS!!Females 15 years and over!!Separated,percent
+80,DP02_0035E,MARITAL STATUS!!Females 15 years and over!!Widowed,estimate
+81,DP02_0035PE,MARITAL STATUS!!Females 15 years and over!!Widowed,percent
+82,DP02_0036E,MARITAL STATUS!!Females 15 years and over!!Divorced,estimate
+83,DP02_0036PE,MARITAL STATUS!!Females 15 years and over!!Divorced,percent
+84,DP02_0037E,FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months,estimate
+85,DP02_0037PE,FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months,percent
+86,DP02_0038E,"FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months!!Unmarried women (widowed, divorced, and never married)",estimate
+87,DP02_0038PE,"FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months!!Unmarried women (widowed, divorced, and never married)",percent
+88,DP02_0039E,"FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months!!Unmarried women (widowed, divorced, and never married)!!Per 1,000 unmarried women",estimate
+89,DP02_0039PE,"FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months!!Unmarried women (widowed, divorced, and never married)!!Per 1,000 unmarried women",percent
+90,DP02_0040E,"FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months!!Per 1,000 women 15 to 50 years old",estimate
+91,DP02_0040PE,"FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months!!Per 1,000 women 15 to 50 years old",percent
+92,DP02_0041E,"FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months!!Per 1,000 women 15 to 19 years old",estimate
+93,DP02_0041PE,"FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months!!Per 1,000 women 15 to 19 years old",percent
+94,DP02_0042E,"FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months!!Per 1,000 women 20 to 34 years old",estimate
+95,DP02_0042PE,"FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months!!Per 1,000 women 20 to 34 years old",percent
+96,DP02_0043E,"FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months!!Per 1,000 women 35 to 50 years old",estimate
+97,DP02_0043PE,"FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months!!Per 1,000 women 35 to 50 years old",percent
+98,DP02_0044E,GRANDPARENTS!!Number of grandparents living with own grandchildren under 18 years,estimate
+99,DP02_0044PE,GRANDPARENTS!!Number of grandparents living with own grandchildren under 18 years,percent
+100,DP02_0045E,GRANDPARENTS!!Number of grandparents living with own grandchildren under 18 years!!Grandparents responsible for grandchildren,estimate
+101,DP02_0045PE,GRANDPARENTS!!Number of grandparents living with own grandchildren under 18 years!!Grandparents responsible for grandchildren,percent
+102,DP02_0046E,GRANDPARENTS!!Number of grandparents living with own grandchildren under 18 years!!Years responsible for grandchildren!!Less than 1 year,estimate
+103,DP02_0046PE,GRANDPARENTS!!Number of grandparents living with own grandchildren under 18 years!!Years responsible for grandchildren!!Less than 1 year,percent
+104,DP02_0047E,GRANDPARENTS!!Number of grandparents living with own grandchildren under 18 years!!Years responsible for grandchildren!!1 or 2 years,estimate
+105,DP02_0047PE,GRANDPARENTS!!Number of grandparents living with own grandchildren under 18 years!!Years responsible for grandchildren!!1 or 2 years,percent
+106,DP02_0048E,GRANDPARENTS!!Number of grandparents living with own grandchildren under 18 years!!Years responsible for grandchildren!!3 or 4 years,estimate
+107,DP02_0048PE,GRANDPARENTS!!Number of grandparents living with own grandchildren under 18 years!!Years responsible for grandchildren!!3 or 4 years,percent
+108,DP02_0049E,GRANDPARENTS!!Number of grandparents living with own grandchildren under 18 years!!Years responsible for grandchildren!!5 or more years,estimate
+109,DP02_0049PE,GRANDPARENTS!!Number of grandparents living with own grandchildren under 18 years!!Years responsible for grandchildren!!5 or more years,percent
+110,DP02_0050E,GRANDPARENTS!!Number of grandparents responsible for own grandchildren under 18 years,estimate
+111,DP02_0050PE,GRANDPARENTS!!Number of grandparents responsible for own grandchildren under 18 years,percent
+112,DP02_0051E,GRANDPARENTS!!Number of grandparents responsible for own grandchildren under 18 years!!Who are female,estimate
+113,DP02_0051PE,GRANDPARENTS!!Number of grandparents responsible for own grandchildren under 18 years!!Who are female,percent
+114,DP02_0052E,GRANDPARENTS!!Number of grandparents responsible for own grandchildren under 18 years!!Who are married,estimate
+115,DP02_0052PE,GRANDPARENTS!!Number of grandparents responsible for own grandchildren under 18 years!!Who are married,percent
+116,DP02_0053E,SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school,estimate
+117,DP02_0053PE,SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school,percent
+118,DP02_0054E,"SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Nursery school, preschool",estimate
+119,DP02_0054PE,"SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Nursery school, preschool",percent
+120,DP02_0055E,SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Kindergarten,estimate
+121,DP02_0055PE,SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Kindergarten,percent
+122,DP02_0056E,SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Elementary school (grades 1-8),estimate
+123,DP02_0056PE,SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Elementary school (grades 1-8),percent
+124,DP02_0057E,SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!High school (grades 9-12),estimate
+125,DP02_0057PE,SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!High school (grades 9-12),percent
+126,DP02_0058E,SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!College or graduate school,estimate
+127,DP02_0058PE,SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!College or graduate school,percent
+128,DP02_0059E,EDUCATIONAL ATTAINMENT!!Population 25 years and over,estimate
+129,DP02_0059PE,EDUCATIONAL ATTAINMENT!!Population 25 years and over,percent
+130,DP02_0060E,EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Less than 9th grade,estimate
+131,DP02_0060PE,EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Less than 9th grade,percent
+132,DP02_0061E,"EDUCATIONAL ATTAINMENT!!Population 25 years and over!!9th to 12th grade, no diploma",estimate
+133,DP02_0061PE,"EDUCATIONAL ATTAINMENT!!Population 25 years and over!!9th to 12th grade, no diploma",percent
+134,DP02_0062E,EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate (includes equivalency),estimate
+135,DP02_0062PE,EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate (includes equivalency),percent
+136,DP02_0063E,"EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Some college, no degree",estimate
+137,DP02_0063PE,"EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Some college, no degree",percent
+138,DP02_0064E,EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Associate's degree,estimate
+139,DP02_0064PE,EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Associate's degree,percent
+140,DP02_0065E,EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree,estimate
+141,DP02_0065PE,EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree,percent
+142,DP02_0066E,EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Graduate or professional degree,estimate
+143,DP02_0066PE,EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Graduate or professional degree,percent
+144,DP02_0067E,EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate or higher,estimate
+145,DP02_0067PE,EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate or higher,percent
+146,DP02_0068E,EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree or higher,estimate
+147,DP02_0068PE,EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree or higher,percent
+148,DP02_0069E,VETERAN STATUS!!Civilian population 18 years and over,estimate
+149,DP02_0069PE,VETERAN STATUS!!Civilian population 18 years and over,percent
+150,DP02_0070E,VETERAN STATUS!!Civilian population 18 years and over!!Civilian veterans,estimate
+151,DP02_0070PE,VETERAN STATUS!!Civilian population 18 years and over!!Civilian veterans,percent
+152,DP02_0071E,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Total Civilian Noninstitutionalized Population,estimate
+153,DP02_0071PE,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Total Civilian Noninstitutionalized Population,percent
+154,DP02_0072E,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Total Civilian Noninstitutionalized Population!!With a disability,estimate
+155,DP02_0072PE,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Total Civilian Noninstitutionalized Population!!With a disability,percent
+156,DP02_0073E,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Under 18 years,estimate
+157,DP02_0073PE,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Under 18 years,percent
+158,DP02_0074E,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Under 18 years!!With a disability,estimate
+159,DP02_0074PE,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Under 18 years!!With a disability,percent
+160,DP02_0075E,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years,estimate
+161,DP02_0075PE,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years,percent
+162,DP02_0076E,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years!!With a disability,estimate
+163,DP02_0076PE,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years!!With a disability,percent
+164,DP02_0077E,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over,estimate
+165,DP02_0077PE,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over,percent
+166,DP02_0078E,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over!!With a disability,estimate
+167,DP02_0078PE,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over!!With a disability,percent
+168,DP02_0079E,RESIDENCE 1 YEAR AGO!!Population 1 year and over,estimate
+169,DP02_0079PE,RESIDENCE 1 YEAR AGO!!Population 1 year and over,percent
+170,DP02_0080E,RESIDENCE 1 YEAR AGO!!Population 1 year and over!!Same house,estimate
+171,DP02_0080PE,RESIDENCE 1 YEAR AGO!!Population 1 year and over!!Same house,percent
+172,DP02_0081E,RESIDENCE 1 YEAR AGO!!Population 1 year and over!!Different house in the U.S.,estimate
+173,DP02_0081PE,RESIDENCE 1 YEAR AGO!!Population 1 year and over!!Different house in the U.S.,percent
+174,DP02_0082E,RESIDENCE 1 YEAR AGO!!Population 1 year and over!!Different house in the U.S.!!Same county,estimate
+175,DP02_0082PE,RESIDENCE 1 YEAR AGO!!Population 1 year and over!!Different house in the U.S.!!Same county,percent
+176,DP02_0083E,RESIDENCE 1 YEAR AGO!!Population 1 year and over!!Different house in the U.S.!!Different county,estimate
+177,DP02_0083PE,RESIDENCE 1 YEAR AGO!!Population 1 year and over!!Different house in the U.S.!!Different county,percent
+178,DP02_0084E,RESIDENCE 1 YEAR AGO!!Population 1 year and over!!Different house in the U.S.!!Different county!!Same state,estimate
+179,DP02_0084PE,RESIDENCE 1 YEAR AGO!!Population 1 year and over!!Different house in the U.S.!!Different county!!Same state,percent
+180,DP02_0085E,RESIDENCE 1 YEAR AGO!!Population 1 year and over!!Different house in the U.S.!!Different county!!Different state,estimate
+181,DP02_0085PE,RESIDENCE 1 YEAR AGO!!Population 1 year and over!!Different house in the U.S.!!Different county!!Different state,percent
+182,DP02_0086E,RESIDENCE 1 YEAR AGO!!Population 1 year and over!!Abroad,estimate
+183,DP02_0086PE,RESIDENCE 1 YEAR AGO!!Population 1 year and over!!Abroad,percent
+184,DP02_0087E,PLACE OF BIRTH!!Total population,estimate
+185,DP02_0087PE,PLACE OF BIRTH!!Total population,percent
+186,DP02_0088E,PLACE OF BIRTH!!Total population!!Native,estimate
+187,DP02_0088PE,PLACE OF BIRTH!!Total population!!Native,percent
+188,DP02_0089E,PLACE OF BIRTH!!Total population!!Native!!Born in United States,estimate
+189,DP02_0089PE,PLACE OF BIRTH!!Total population!!Native!!Born in United States,percent
+190,DP02_0090E,PLACE OF BIRTH!!Total population!!Native!!Born in United States!!State of residence,estimate
+191,DP02_0090PE,PLACE OF BIRTH!!Total population!!Native!!Born in United States!!State of residence,percent
+192,DP02_0091E,PLACE OF BIRTH!!Total population!!Native!!Born in United States!!Different state,estimate
+193,DP02_0091PE,PLACE OF BIRTH!!Total population!!Native!!Born in United States!!Different state,percent
+194,DP02_0092E,"PLACE OF BIRTH!!Total population!!Native!!Born in Puerto Rico, U.S. Island areas, or born abroad to American parent(s)",estimate
+195,DP02_0092PE,"PLACE OF BIRTH!!Total population!!Native!!Born in Puerto Rico, U.S. Island areas, or born abroad to American parent(s)",percent
+196,DP02_0093E,PLACE OF BIRTH!!Total population!!Foreign born,estimate
+197,DP02_0093PE,PLACE OF BIRTH!!Total population!!Foreign born,percent
+198,DP02_0094E,U.S. CITIZENSHIP STATUS!!Foreign-born population,estimate
+199,DP02_0094PE,U.S. CITIZENSHIP STATUS!!Foreign-born population,percent
+200,DP02_0095E,U.S. CITIZENSHIP STATUS!!Foreign-born population!!Naturalized U.S. citizen,estimate
+201,DP02_0095PE,U.S. CITIZENSHIP STATUS!!Foreign-born population!!Naturalized U.S. citizen,percent
+202,DP02_0096E,U.S. CITIZENSHIP STATUS!!Foreign-born population!!Not a U.S. citizen,estimate
+203,DP02_0096PE,U.S. CITIZENSHIP STATUS!!Foreign-born population!!Not a U.S. citizen,percent
+204,DP02_0097E,YEAR OF ENTRY!!Population born outside the United States,estimate
+205,DP02_0097PE,YEAR OF ENTRY!!Population born outside the United States,percent
+206,DP02_0098E,YEAR OF ENTRY!!Population born outside the United States!!Native,estimate
+207,DP02_0098PE,YEAR OF ENTRY!!Population born outside the United States!!Native,percent
+208,DP02_0099E,YEAR OF ENTRY!!Population born outside the United States!!Native!!Entered 2010 or later,estimate
+209,DP02_0099PE,YEAR OF ENTRY!!Population born outside the United States!!Native!!Entered 2010 or later,percent
+210,DP02_0100E,YEAR OF ENTRY!!Population born outside the United States!!Native!!Entered before 2010,estimate
+211,DP02_0100PE,YEAR OF ENTRY!!Population born outside the United States!!Native!!Entered before 2010,percent
+212,DP02_0101E,YEAR OF ENTRY!!Population born outside the United States!!Foreign born,estimate
+213,DP02_0101PE,YEAR OF ENTRY!!Population born outside the United States!!Foreign born,percent
+214,DP02_0102E,YEAR OF ENTRY!!Population born outside the United States!!Foreign born!!Entered 2010 or later,estimate
+215,DP02_0102PE,YEAR OF ENTRY!!Population born outside the United States!!Foreign born!!Entered 2010 or later,percent
+216,DP02_0103E,YEAR OF ENTRY!!Population born outside the United States!!Foreign born!!Entered before 2010,estimate
+217,DP02_0103PE,YEAR OF ENTRY!!Population born outside the United States!!Foreign born!!Entered before 2010,percent
+218,DP02_0104E,"WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea",estimate
+219,DP02_0104PE,"WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea",percent
+220,DP02_0105E,"WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea!!Europe",estimate
+221,DP02_0105PE,"WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea!!Europe",percent
+222,DP02_0106E,"WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea!!Asia",estimate
+223,DP02_0106PE,"WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea!!Asia",percent
+224,DP02_0107E,"WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea!!Africa",estimate
+225,DP02_0107PE,"WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea!!Africa",percent
+226,DP02_0108E,"WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea!!Oceania",estimate
+227,DP02_0108PE,"WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea!!Oceania",percent
+228,DP02_0109E,"WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea!!Latin America",estimate
+229,DP02_0109PE,"WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea!!Latin America",percent
+230,DP02_0110E,"WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea!!Northern America",estimate
+231,DP02_0110PE,"WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea!!Northern America",percent
+232,DP02_0111E,LANGUAGE SPOKEN AT HOME!!Population 5 years and over,estimate
+233,DP02_0111PE,LANGUAGE SPOKEN AT HOME!!Population 5 years and over,percent
+234,DP02_0112E,LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!English only,estimate
+235,DP02_0112PE,LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!English only,percent
+236,DP02_0113E,LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Language other than English,estimate
+237,DP02_0113PE,LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Language other than English,percent
+238,DP02_0114E,"LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Language other than English!!Speak English less than ""very well""",estimate
+239,DP02_0114PE,"LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Language other than English!!Speak English less than ""very well""",percent
+240,DP02_0115E,LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Spanish,estimate
+241,DP02_0115PE,LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Spanish,percent
+242,DP02_0116E,"LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Spanish!!Speak English less than ""very well""",estimate
+243,DP02_0116PE,"LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Spanish!!Speak English less than ""very well""",percent
+244,DP02_0117E,LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Other Indo-European languages,estimate
+245,DP02_0117PE,LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Other Indo-European languages,percent
+246,DP02_0118E,"LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Other Indo-European languages!!Speak English less than ""very well""",estimate
+247,DP02_0118PE,"LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Other Indo-European languages!!Speak English less than ""very well""",percent
+248,DP02_0119E,LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Asian and Pacific Islander languages,estimate
+249,DP02_0119PE,LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Asian and Pacific Islander languages,percent
+250,DP02_0120E,"LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Asian and Pacific Islander languages!!Speak English less than ""very well""",estimate
+251,DP02_0120PE,"LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Asian and Pacific Islander languages!!Speak English less than ""very well""",percent
+252,DP02_0121E,LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Other languages,estimate
+253,DP02_0121PE,LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Other languages,percent
+254,DP02_0122E,"LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Other languages!!Speak English less than ""very well""",estimate
+255,DP02_0122PE,"LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Other languages!!Speak English less than ""very well""",percent
+256,DP02_0123E,ANCESTRY!!Total population,estimate
+257,DP02_0123PE,ANCESTRY!!Total population,percent
+258,DP02_0124E,ANCESTRY!!Total population!!American,estimate
+259,DP02_0124PE,ANCESTRY!!Total population!!American,percent
+260,DP02_0125E,ANCESTRY!!Total population!!Arab,estimate
+261,DP02_0125PE,ANCESTRY!!Total population!!Arab,percent
+262,DP02_0126E,ANCESTRY!!Total population!!Czech,estimate
+263,DP02_0126PE,ANCESTRY!!Total population!!Czech,percent
+264,DP02_0127E,ANCESTRY!!Total population!!Danish,estimate
+265,DP02_0127PE,ANCESTRY!!Total population!!Danish,percent
+266,DP02_0128E,ANCESTRY!!Total population!!Dutch,estimate
+267,DP02_0128PE,ANCESTRY!!Total population!!Dutch,percent
+268,DP02_0129E,ANCESTRY!!Total population!!English,estimate
+269,DP02_0129PE,ANCESTRY!!Total population!!English,percent
+270,DP02_0130E,ANCESTRY!!Total population!!French (except Basque),estimate
+271,DP02_0130PE,ANCESTRY!!Total population!!French (except Basque),percent
+272,DP02_0131E,ANCESTRY!!Total population!!French Canadian,estimate
+273,DP02_0131PE,ANCESTRY!!Total population!!French Canadian,percent
+274,DP02_0132E,ANCESTRY!!Total population!!German,estimate
+275,DP02_0132PE,ANCESTRY!!Total population!!German,percent
+276,DP02_0133E,ANCESTRY!!Total population!!Greek,estimate
+277,DP02_0133PE,ANCESTRY!!Total population!!Greek,percent
+278,DP02_0134E,ANCESTRY!!Total population!!Hungarian,estimate
+279,DP02_0134PE,ANCESTRY!!Total population!!Hungarian,percent
+280,DP02_0135E,ANCESTRY!!Total population!!Irish,estimate
+281,DP02_0135PE,ANCESTRY!!Total population!!Irish,percent
+282,DP02_0136E,ANCESTRY!!Total population!!Italian,estimate
+283,DP02_0136PE,ANCESTRY!!Total population!!Italian,percent
+284,DP02_0137E,ANCESTRY!!Total population!!Lithuanian,estimate
+285,DP02_0137PE,ANCESTRY!!Total population!!Lithuanian,percent
+286,DP02_0138E,ANCESTRY!!Total population!!Norwegian,estimate
+287,DP02_0138PE,ANCESTRY!!Total population!!Norwegian,percent
+288,DP02_0139E,ANCESTRY!!Total population!!Polish,estimate
+289,DP02_0139PE,ANCESTRY!!Total population!!Polish,percent
+290,DP02_0140E,ANCESTRY!!Total population!!Portuguese,estimate
+291,DP02_0140PE,ANCESTRY!!Total population!!Portuguese,percent
+292,DP02_0141E,ANCESTRY!!Total population!!Russian,estimate
+293,DP02_0141PE,ANCESTRY!!Total population!!Russian,percent
+294,DP02_0142E,ANCESTRY!!Total population!!Scotch-Irish,estimate
+295,DP02_0142PE,ANCESTRY!!Total population!!Scotch-Irish,percent
+296,DP02_0143E,ANCESTRY!!Total population!!Scottish,estimate
+297,DP02_0143PE,ANCESTRY!!Total population!!Scottish,percent
+298,DP02_0144E,ANCESTRY!!Total population!!Slovak,estimate
+299,DP02_0144PE,ANCESTRY!!Total population!!Slovak,percent
+300,DP02_0145E,ANCESTRY!!Total population!!Subsaharan African,estimate
+301,DP02_0145PE,ANCESTRY!!Total population!!Subsaharan African,percent
+302,DP02_0146E,ANCESTRY!!Total population!!Swedish,estimate
+303,DP02_0146PE,ANCESTRY!!Total population!!Swedish,percent
+304,DP02_0147E,ANCESTRY!!Total population!!Swiss,estimate
+305,DP02_0147PE,ANCESTRY!!Total population!!Swiss,percent
+306,DP02_0148E,ANCESTRY!!Total population!!Ukrainian,estimate
+307,DP02_0148PE,ANCESTRY!!Total population!!Ukrainian,percent
+308,DP02_0149E,ANCESTRY!!Total population!!Welsh,estimate
+309,DP02_0149PE,ANCESTRY!!Total population!!Welsh,percent
+310,DP02_0150E,ANCESTRY!!Total population!!West Indian (excluding Hispanic origin groups),estimate
+311,DP02_0150PE,ANCESTRY!!Total population!!West Indian (excluding Hispanic origin groups),percent
+312,DP02_0151E,COMPUTERS AND INTERNET USE!!Total households,estimate
+313,DP02_0151PE,COMPUTERS AND INTERNET USE!!Total households,percent
+314,DP02_0152E,COMPUTERS AND INTERNET USE!!Total households!!With a computer,estimate
+315,DP02_0152PE,COMPUTERS AND INTERNET USE!!Total households!!With a computer,percent
+316,DP02_0153E,COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription,estimate
+317,DP02_0153PE,COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription,percent
+318,DP02PR_0001E,HOUSEHOLDS BY TYPE!!Total households,estimate
+319,DP02PR_0001PE,HOUSEHOLDS BY TYPE!!Total households,percent
+320,DP02PR_0002E,HOUSEHOLDS BY TYPE!!Total households!!Married-couple family,estimate
+321,DP02PR_0002PE,HOUSEHOLDS BY TYPE!!Total households!!Married-couple family,percent
+322,DP02PR_0003E,HOUSEHOLDS BY TYPE!!Total households!!Married-couple family!!With own children of the householder under 18 years,estimate
+323,DP02PR_0003PE,HOUSEHOLDS BY TYPE!!Total households!!Married-couple family!!With own children of the householder under 18 years,percent
+324,DP02PR_0004E,HOUSEHOLDS BY TYPE!!Total households!!Cohabiting couple household,estimate
+325,DP02PR_0004PE,HOUSEHOLDS BY TYPE!!Total households!!Cohabiting couple household,percent
+326,DP02PR_0005E,HOUSEHOLDS BY TYPE!!Total households!!Cohabiting couple household!!With own children of the householder under 18 years,estimate
+327,DP02PR_0005PE,HOUSEHOLDS BY TYPE!!Total households!!Cohabiting couple household!!With own children of the householder under 18 years,percent
+328,DP02PR_0006E,"HOUSEHOLDS BY TYPE!!Total households!!Male householder, no spouse/partner present",estimate
+329,DP02PR_0006PE,"HOUSEHOLDS BY TYPE!!Total households!!Male householder, no spouse/partner present",percent
+330,DP02PR_0007E,"HOUSEHOLDS BY TYPE!!Total households!!Male householder, no spouse/partner present!!With own children of the householder under 18 years",estimate
+331,DP02PR_0007PE,"HOUSEHOLDS BY TYPE!!Total households!!Male householder, no spouse/partner present!!With own children of the householder under 18 years",percent
+332,DP02PR_0008E,"HOUSEHOLDS BY TYPE!!Total households!!Male householder, no spouse/partner present!!Householder living alone",estimate
+333,DP02PR_0008PE,"HOUSEHOLDS BY TYPE!!Total households!!Male householder, no spouse/partner present!!Householder living alone",percent
+334,DP02PR_0009E,"HOUSEHOLDS BY TYPE!!Total households!!Male householder, no spouse/partner present!!Householder living alone!!65 years and over",estimate
+335,DP02PR_0009PE,"HOUSEHOLDS BY TYPE!!Total households!!Male householder, no spouse/partner present!!Householder living alone!!65 years and over",percent
+336,DP02PR_0010E,"HOUSEHOLDS BY TYPE!!Total households!!Female householder, no spouse/partner present",estimate
+337,DP02PR_0010PE,"HOUSEHOLDS BY TYPE!!Total households!!Female householder, no spouse/partner present",percent
+338,DP02PR_0011E,"HOUSEHOLDS BY TYPE!!Total households!!Female householder, no spouse/partner present!!With own children of the householder under 18 years",estimate
+339,DP02PR_0011PE,"HOUSEHOLDS BY TYPE!!Total households!!Female householder, no spouse/partner present!!With own children of the householder under 18 years",percent
+340,DP02PR_0012E,"HOUSEHOLDS BY TYPE!!Total households!!Female householder, no spouse/partner present!!Householder living alone",estimate
+341,DP02PR_0012PE,"HOUSEHOLDS BY TYPE!!Total households!!Female householder, no spouse/partner present!!Householder living alone",percent
+342,DP02PR_0013E,"HOUSEHOLDS BY TYPE!!Total households!!Female householder, no spouse/partner present!!Householder living alone!!65 years and over",estimate
+343,DP02PR_0013PE,"HOUSEHOLDS BY TYPE!!Total households!!Female householder, no spouse/partner present!!Householder living alone!!65 years and over",percent
+344,DP02PR_0014E,HOUSEHOLDS BY TYPE!!Total households!!Households with one or more people under 18 years,estimate
+345,DP02PR_0014PE,HOUSEHOLDS BY TYPE!!Total households!!Households with one or more people under 18 years,percent
+346,DP02PR_0015E,HOUSEHOLDS BY TYPE!!Total households!!Households with one or more people 65 years and over,estimate
+347,DP02PR_0015PE,HOUSEHOLDS BY TYPE!!Total households!!Households with one or more people 65 years and over,percent
+348,DP02PR_0016E,HOUSEHOLDS BY TYPE!!Total households!!Average household size,estimate
+349,DP02PR_0016PE,HOUSEHOLDS BY TYPE!!Total households!!Average household size,percent
+350,DP02PR_0017E,HOUSEHOLDS BY TYPE!!Total households!!Average family size,estimate
+351,DP02PR_0017PE,HOUSEHOLDS BY TYPE!!Total households!!Average family size,percent
+352,DP02PR_0018E,RELATIONSHIP!!Population in households,estimate
+353,DP02PR_0018PE,RELATIONSHIP!!Population in households,percent
+354,DP02PR_0019E,RELATIONSHIP!!Population in households!!Householder,estimate
+355,DP02PR_0019PE,RELATIONSHIP!!Population in households!!Householder,percent
+356,DP02PR_0020E,RELATIONSHIP!!Population in households!!Spouse,estimate
+357,DP02PR_0020PE,RELATIONSHIP!!Population in households!!Spouse,percent
+358,DP02PR_0021E,RELATIONSHIP!!Population in households!!Unmarried partner,estimate
+359,DP02PR_0021PE,RELATIONSHIP!!Population in households!!Unmarried partner,percent
+360,DP02PR_0022E,RELATIONSHIP!!Population in households!!Child,estimate
+361,DP02PR_0022PE,RELATIONSHIP!!Population in households!!Child,percent
+362,DP02PR_0023E,RELATIONSHIP!!Population in households!!Other relatives,estimate
+363,DP02PR_0023PE,RELATIONSHIP!!Population in households!!Other relatives,percent
+364,DP02PR_0024E,RELATIONSHIP!!Population in households!!Other nonrelatives,estimate
+365,DP02PR_0024PE,RELATIONSHIP!!Population in households!!Other nonrelatives,percent
+366,DP02PR_0025E,MARITAL STATUS!!Males 15 years and over,estimate
+367,DP02PR_0025PE,MARITAL STATUS!!Males 15 years and over,percent
+368,DP02PR_0026E,MARITAL STATUS!!Males 15 years and over!!Never married,estimate
+369,DP02PR_0026PE,MARITAL STATUS!!Males 15 years and over!!Never married,percent
+370,DP02PR_0027E,"MARITAL STATUS!!Males 15 years and over!!Now married, except separated",estimate
+371,DP02PR_0027PE,"MARITAL STATUS!!Males 15 years and over!!Now married, except separated",percent
+372,DP02PR_0028E,MARITAL STATUS!!Males 15 years and over!!Separated,estimate
+373,DP02PR_0028PE,MARITAL STATUS!!Males 15 years and over!!Separated,percent
+374,DP02PR_0029E,MARITAL STATUS!!Males 15 years and over!!Widowed,estimate
+375,DP02PR_0029PE,MARITAL STATUS!!Males 15 years and over!!Widowed,percent
+376,DP02PR_0030E,MARITAL STATUS!!Males 15 years and over!!Divorced,estimate
+377,DP02PR_0030PE,MARITAL STATUS!!Males 15 years and over!!Divorced,percent
+378,DP02PR_0031E,MARITAL STATUS!!Females 15 years and over,estimate
+379,DP02PR_0031PE,MARITAL STATUS!!Females 15 years and over,percent
+380,DP02PR_0032E,MARITAL STATUS!!Females 15 years and over!!Never married,estimate
+381,DP02PR_0032PE,MARITAL STATUS!!Females 15 years and over!!Never married,percent
+382,DP02PR_0033E,"MARITAL STATUS!!Females 15 years and over!!Now married, except separated",estimate
+383,DP02PR_0033PE,"MARITAL STATUS!!Females 15 years and over!!Now married, except separated",percent
+384,DP02PR_0034E,MARITAL STATUS!!Females 15 years and over!!Separated,estimate
+385,DP02PR_0034PE,MARITAL STATUS!!Females 15 years and over!!Separated,percent
+386,DP02PR_0035E,MARITAL STATUS!!Females 15 years and over!!Widowed,estimate
+387,DP02PR_0035PE,MARITAL STATUS!!Females 15 years and over!!Widowed,percent
+388,DP02PR_0036E,MARITAL STATUS!!Females 15 years and over!!Divorced,estimate
+389,DP02PR_0036PE,MARITAL STATUS!!Females 15 years and over!!Divorced,percent
+390,DP02PR_0037E,FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months,estimate
+391,DP02PR_0037PE,FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months,percent
+392,DP02PR_0038E,"FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months!!Unmarried women (widowed, divorced, and never married)",estimate
+393,DP02PR_0038PE,"FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months!!Unmarried women (widowed, divorced, and never married)",percent
+394,DP02PR_0039E,"FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months!!Unmarried women (widowed, divorced, and never married)!!Per 1,000 unmarried women",estimate
+395,DP02PR_0039PE,"FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months!!Unmarried women (widowed, divorced, and never married)!!Per 1,000 unmarried women",percent
+396,DP02PR_0040E,"FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months!!Per 1,000 women 15 to 50 years old",estimate
+397,DP02PR_0040PE,"FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months!!Per 1,000 women 15 to 50 years old",percent
+398,DP02PR_0041E,"FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months!!Per 1,000 women 15 to 19 years old",estimate
+399,DP02PR_0041PE,"FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months!!Per 1,000 women 15 to 19 years old",percent
+400,DP02PR_0042E,"FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months!!Per 1,000 women 20 to 34 years old",estimate
+401,DP02PR_0042PE,"FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months!!Per 1,000 women 20 to 34 years old",percent
+402,DP02PR_0043E,"FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months!!Per 1,000 women 35 to 50 years old",estimate
+403,DP02PR_0043PE,"FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months!!Per 1,000 women 35 to 50 years old",percent
+404,DP02PR_0044E,GRANDPARENTS!!Number of grandparents living with own grandchildren under 18 years,estimate
+405,DP02PR_0044PE,GRANDPARENTS!!Number of grandparents living with own grandchildren under 18 years,percent
+406,DP02PR_0045E,GRANDPARENTS!!Number of grandparents living with own grandchildren under 18 years!!Grandparents responsible for grandchildren,estimate
+407,DP02PR_0045PE,GRANDPARENTS!!Number of grandparents living with own grandchildren under 18 years!!Grandparents responsible for grandchildren,percent
+408,DP02PR_0046E,GRANDPARENTS!!Number of grandparents living with own grandchildren under 18 years!!Years responsible for grandchildren!!Less than 1 year,estimate
+409,DP02PR_0046PE,GRANDPARENTS!!Number of grandparents living with own grandchildren under 18 years!!Years responsible for grandchildren!!Less than 1 year,percent
+410,DP02PR_0047E,GRANDPARENTS!!Number of grandparents living with own grandchildren under 18 years!!Years responsible for grandchildren!!1 or 2 years,estimate
+411,DP02PR_0047PE,GRANDPARENTS!!Number of grandparents living with own grandchildren under 18 years!!Years responsible for grandchildren!!1 or 2 years,percent
+412,DP02PR_0048E,GRANDPARENTS!!Number of grandparents living with own grandchildren under 18 years!!Years responsible for grandchildren!!3 or 4 years,estimate
+413,DP02PR_0048PE,GRANDPARENTS!!Number of grandparents living with own grandchildren under 18 years!!Years responsible for grandchildren!!3 or 4 years,percent
+414,DP02PR_0049E,GRANDPARENTS!!Number of grandparents living with own grandchildren under 18 years!!Years responsible for grandchildren!!5 or more years,estimate
+415,DP02PR_0049PE,GRANDPARENTS!!Number of grandparents living with own grandchildren under 18 years!!Years responsible for grandchildren!!5 or more years,percent
+416,DP02PR_0050E,GRANDPARENTS!!Number of grandparents responsible for own grandchildren under 18 years,estimate
+417,DP02PR_0050PE,GRANDPARENTS!!Number of grandparents responsible for own grandchildren under 18 years,percent
+418,DP02PR_0051E,GRANDPARENTS!!Number of grandparents responsible for own grandchildren under 18 years!!Who are female,estimate
+419,DP02PR_0051PE,GRANDPARENTS!!Number of grandparents responsible for own grandchildren under 18 years!!Who are female,percent
+420,DP02PR_0052E,GRANDPARENTS!!Number of grandparents responsible for own grandchildren under 18 years!!Who are married,estimate
+421,DP02PR_0052PE,GRANDPARENTS!!Number of grandparents responsible for own grandchildren under 18 years!!Who are married,percent
+422,DP02PR_0053E,SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school,estimate
+423,DP02PR_0053PE,SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school,percent
+424,DP02PR_0054E,"SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Nursery school, preschool",estimate
+425,DP02PR_0054PE,"SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Nursery school, preschool",percent
+426,DP02PR_0055E,SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Kindergarten,estimate
+427,DP02PR_0055PE,SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Kindergarten,percent
+428,DP02PR_0056E,SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Elementary school (grades 1-8),estimate
+429,DP02PR_0056PE,SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!Elementary school (grades 1-8),percent
+430,DP02PR_0057E,SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!High school (grades 9-12),estimate
+431,DP02PR_0057PE,SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!High school (grades 9-12),percent
+432,DP02PR_0058E,SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!College or graduate school,estimate
+433,DP02PR_0058PE,SCHOOL ENROLLMENT!!Population 3 years and over enrolled in school!!College or graduate school,percent
+434,DP02PR_0059E,EDUCATIONAL ATTAINMENT!!Population 25 years and over,estimate
+435,DP02PR_0059PE,EDUCATIONAL ATTAINMENT!!Population 25 years and over,percent
+436,DP02PR_0060E,EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Less than 9th grade,estimate
+437,DP02PR_0060PE,EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Less than 9th grade,percent
+438,DP02PR_0061E,"EDUCATIONAL ATTAINMENT!!Population 25 years and over!!9th to 12th grade, no diploma",estimate
+439,DP02PR_0061PE,"EDUCATIONAL ATTAINMENT!!Population 25 years and over!!9th to 12th grade, no diploma",percent
+440,DP02PR_0062E,EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate (includes equivalency),estimate
+441,DP02PR_0062PE,EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate (includes equivalency),percent
+442,DP02PR_0063E,"EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Some college, no degree",estimate
+443,DP02PR_0063PE,"EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Some college, no degree",percent
+444,DP02PR_0064E,EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Associate's degree,estimate
+445,DP02PR_0064PE,EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Associate's degree,percent
+446,DP02PR_0065E,EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree,estimate
+447,DP02PR_0065PE,EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree,percent
+448,DP02PR_0066E,EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Graduate or professional degree,estimate
+449,DP02PR_0066PE,EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Graduate or professional degree,percent
+450,DP02PR_0067E,EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate or higher,estimate
+451,DP02PR_0067PE,EDUCATIONAL ATTAINMENT!!Population 25 years and over!!High school graduate or higher,percent
+452,DP02PR_0068E,EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree or higher,estimate
+453,DP02PR_0068PE,EDUCATIONAL ATTAINMENT!!Population 25 years and over!!Bachelor's degree or higher,percent
+454,DP02PR_0069E,VETERAN STATUS!!Civilian population 18 years and over,estimate
+455,DP02PR_0069PE,VETERAN STATUS!!Civilian population 18 years and over,percent
+456,DP02PR_0070E,VETERAN STATUS!!Civilian population 18 years and over!!Civilian veterans,estimate
+457,DP02PR_0070PE,VETERAN STATUS!!Civilian population 18 years and over!!Civilian veterans,percent
+458,DP02PR_0071E,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Total Civilian Noninstitutionalized Population,estimate
+459,DP02PR_0071PE,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Total Civilian Noninstitutionalized Population,percent
+460,DP02PR_0072E,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Total Civilian Noninstitutionalized Population!!With a disability,estimate
+461,DP02PR_0072PE,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Total Civilian Noninstitutionalized Population!!With a disability,percent
+462,DP02PR_0073E,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Under 18 years,estimate
+463,DP02PR_0073PE,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Under 18 years,percent
+464,DP02PR_0074E,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Under 18 years!!With a disability,estimate
+465,DP02PR_0074PE,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!Under 18 years!!With a disability,percent
+466,DP02PR_0075E,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years,estimate
+467,DP02PR_0075PE,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years,percent
+468,DP02PR_0076E,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years!!With a disability,estimate
+469,DP02PR_0076PE,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!18 to 64 years!!With a disability,percent
+470,DP02PR_0077E,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over,estimate
+471,DP02PR_0077PE,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over,percent
+472,DP02PR_0078E,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over!!With a disability,estimate
+473,DP02PR_0078PE,DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!65 years and over!!With a disability,percent
+474,DP02PR_0079E,RESIDENCE 1 YEAR AGO!!Population 1 year and over,estimate
+475,DP02PR_0079PE,RESIDENCE 1 YEAR AGO!!Population 1 year and over,percent
+476,DP02PR_0080E,RESIDENCE 1 YEAR AGO!!Population 1 year and over!!Same house,estimate
+477,DP02PR_0080PE,RESIDENCE 1 YEAR AGO!!Population 1 year and over!!Same house,percent
+478,DP02PR_0081E,RESIDENCE 1 YEAR AGO!!Population 1 year and over!!Different house in Puerto Rico or the U.S.,estimate
+479,DP02PR_0081PE,RESIDENCE 1 YEAR AGO!!Population 1 year and over!!Different house in Puerto Rico or the U.S.,percent
+480,DP02PR_0082E,RESIDENCE 1 YEAR AGO!!Population 1 year and over!!Different house in Puerto Rico or the U.S.!!In Puerto Rico,estimate
+481,DP02PR_0082PE,RESIDENCE 1 YEAR AGO!!Population 1 year and over!!Different house in Puerto Rico or the U.S.!!In Puerto Rico,percent
+482,DP02PR_0083E,RESIDENCE 1 YEAR AGO!!Population 1 year and over!!Different house in Puerto Rico or the U.S.!!In Puerto Rico!!Same municipio,estimate
+483,DP02PR_0083PE,RESIDENCE 1 YEAR AGO!!Population 1 year and over!!Different house in Puerto Rico or the U.S.!!In Puerto Rico!!Same municipio,percent
+484,DP02PR_0084E,RESIDENCE 1 YEAR AGO!!Population 1 year and over!!Different house in Puerto Rico or the U.S.!!In Puerto Rico!!Different municipio,estimate
+485,DP02PR_0084PE,RESIDENCE 1 YEAR AGO!!Population 1 year and over!!Different house in Puerto Rico or the U.S.!!In Puerto Rico!!Different municipio,percent
+486,DP02PR_0085E,RESIDENCE 1 YEAR AGO!!Population 1 year and over!!Different house in Puerto Rico or the U.S.!!In the United States,estimate
+487,DP02PR_0085PE,RESIDENCE 1 YEAR AGO!!Population 1 year and over!!Different house in Puerto Rico or the U.S.!!In the United States,percent
+488,DP02PR_0086E,RESIDENCE 1 YEAR AGO!!Population 1 year and over!!Elsewhere,estimate
+489,DP02PR_0086PE,RESIDENCE 1 YEAR AGO!!Population 1 year and over!!Elsewhere,percent
+490,DP02PR_0087E,PLACE OF BIRTH!!Total population,estimate
+491,DP02PR_0087PE,PLACE OF BIRTH!!Total population,percent
+492,DP02PR_0088E,PLACE OF BIRTH!!Total population!!Native,estimate
+493,DP02PR_0088PE,PLACE OF BIRTH!!Total population!!Native,percent
+494,DP02PR_0089E,PLACE OF BIRTH!!Total population!!Native!!Born in Puerto Rico or the United States,estimate
+495,DP02PR_0089PE,PLACE OF BIRTH!!Total population!!Native!!Born in Puerto Rico or the United States,percent
+496,DP02PR_0090E,PLACE OF BIRTH!!Total population!!Native!!Born in Puerto Rico or the United States!!In Puerto Rico,estimate
+497,DP02PR_0090PE,PLACE OF BIRTH!!Total population!!Native!!Born in Puerto Rico or the United States!!In Puerto Rico,percent
+498,DP02PR_0091E,PLACE OF BIRTH!!Total population!!Native!!Born in Puerto Rico or the United States!!In the United States,estimate
+499,DP02PR_0091PE,PLACE OF BIRTH!!Total population!!Native!!Born in Puerto Rico or the United States!!In the United States,percent
+500,DP02PR_0092E,"PLACE OF BIRTH!!Total population!!Native!!Born in U.S. Island Areas, or born abroad of American parents",estimate
+501,DP02PR_0092PE,"PLACE OF BIRTH!!Total population!!Native!!Born in U.S. Island Areas, or born abroad of American parents",percent
+502,DP02PR_0093E,PLACE OF BIRTH!!Total population!!Foreign born,estimate
+503,DP02PR_0093PE,PLACE OF BIRTH!!Total population!!Foreign born,percent
+504,DP02PR_0094E,U.S. CITIZENSHIP STATUS!!Foreign-born population,estimate
+505,DP02PR_0094PE,U.S. CITIZENSHIP STATUS!!Foreign-born population,percent
+506,DP02PR_0095E,U.S. CITIZENSHIP STATUS!!Foreign-born population!!Naturalized U.S. citizen,estimate
+507,DP02PR_0095PE,U.S. CITIZENSHIP STATUS!!Foreign-born population!!Naturalized U.S. citizen,percent
+508,DP02PR_0096E,U.S. CITIZENSHIP STATUS!!Foreign-born population!!Not a U.S. citizen,estimate
+509,DP02PR_0096PE,U.S. CITIZENSHIP STATUS!!Foreign-born population!!Not a U.S. citizen,percent
+510,DP02PR_0097E,YEAR OF ENTRY!!Population born outside Puerto Rico,estimate
+511,DP02PR_0097PE,YEAR OF ENTRY!!Population born outside Puerto Rico,percent
+512,DP02PR_0098E,YEAR OF ENTRY!!Population born outside Puerto Rico!!Native,estimate
+513,DP02PR_0098PE,YEAR OF ENTRY!!Population born outside Puerto Rico!!Native,percent
+514,DP02PR_0099E,YEAR OF ENTRY!!Population born outside Puerto Rico!!Native!!Entered 2010 or later,estimate
+515,DP02PR_0099PE,YEAR OF ENTRY!!Population born outside Puerto Rico!!Native!!Entered 2010 or later,percent
+516,DP02PR_0100E,YEAR OF ENTRY!!Population born outside Puerto Rico!!Native!!Entered before 2010,estimate
+517,DP02PR_0100PE,YEAR OF ENTRY!!Population born outside Puerto Rico!!Native!!Entered before 2010,percent
+518,DP02PR_0101E,YEAR OF ENTRY!!Population born outside Puerto Rico!!Foreign born,estimate
+519,DP02PR_0101PE,YEAR OF ENTRY!!Population born outside Puerto Rico!!Foreign born,percent
+520,DP02PR_0102E,YEAR OF ENTRY!!Population born outside Puerto Rico!!Foreign born!!Entered 2010 or later,estimate
+521,DP02PR_0102PE,YEAR OF ENTRY!!Population born outside Puerto Rico!!Foreign born!!Entered 2010 or later,percent
+522,DP02PR_0103E,YEAR OF ENTRY!!Population born outside Puerto Rico!!Foreign born!!Entered before 2010,estimate
+523,DP02PR_0103PE,YEAR OF ENTRY!!Population born outside Puerto Rico!!Foreign born!!Entered before 2010,percent
+524,DP02PR_0104E,"WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea",estimate
+525,DP02PR_0104PE,"WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea",percent
+526,DP02PR_0105E,"WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea!!Europe",estimate
+527,DP02PR_0105PE,"WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea!!Europe",percent
+528,DP02PR_0106E,"WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea!!Asia",estimate
+529,DP02PR_0106PE,"WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea!!Asia",percent
+530,DP02PR_0107E,"WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea!!Africa",estimate
+531,DP02PR_0107PE,"WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea!!Africa",percent
+532,DP02PR_0108E,"WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea!!Oceania",estimate
+533,DP02PR_0108PE,"WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea!!Oceania",percent
+534,DP02PR_0109E,"WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea!!Latin America",estimate
+535,DP02PR_0109PE,"WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea!!Latin America",percent
+536,DP02PR_0110E,"WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea!!Northern America",estimate
+537,DP02PR_0110PE,"WORLD REGION OF BIRTH OF FOREIGN BORN!!Foreign-born population, excluding population born at sea!!Northern America",percent
+538,DP02PR_0111E,LANGUAGE SPOKEN AT HOME!!Population 5 years and over,estimate
+539,DP02PR_0111PE,LANGUAGE SPOKEN AT HOME!!Population 5 years and over,percent
+540,DP02PR_0112E,LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!English only,estimate
+541,DP02PR_0112PE,LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!English only,percent
+542,DP02PR_0113E,LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Language other than English,estimate
+543,DP02PR_0113PE,LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Language other than English,percent
+544,DP02PR_0114E,"LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Language other than English!!Speak English less than ""very well""",estimate
+545,DP02PR_0114PE,"LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Language other than English!!Speak English less than ""very well""",percent
+546,DP02PR_0115E,LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Spanish,estimate
+547,DP02PR_0115PE,LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Spanish,percent
+548,DP02PR_0116E,"LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Spanish!!Speak English less than ""very well""",estimate
+549,DP02PR_0116PE,"LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Spanish!!Speak English less than ""very well""",percent
+550,DP02PR_0117E,LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Other Indo-European languages,estimate
+551,DP02PR_0117PE,LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Other Indo-European languages,percent
+552,DP02PR_0118E,"LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Other Indo-European languages!!Speak English less than ""very well""",estimate
+553,DP02PR_0118PE,"LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Other Indo-European languages!!Speak English less than ""very well""",percent
+554,DP02PR_0119E,LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Asian and Pacific Islander languages,estimate
+555,DP02PR_0119PE,LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Asian and Pacific Islander languages,percent
+556,DP02PR_0120E,"LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Asian and Pacific Islander languages!!Speak English less than ""very well""",estimate
+557,DP02PR_0120PE,"LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Asian and Pacific Islander languages!!Speak English less than ""very well""",percent
+558,DP02PR_0121E,LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Other languages,estimate
+559,DP02PR_0121PE,LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Other languages,percent
+560,DP02PR_0122E,"LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Other languages!!Speak English less than ""very well""",estimate
+561,DP02PR_0122PE,"LANGUAGE SPOKEN AT HOME!!Population 5 years and over!!Other languages!!Speak English less than ""very well""",percent
+562,DP02PR_0123E,ANCESTRY!!Total population,estimate
+563,DP02PR_0123PE,ANCESTRY!!Total population,percent
+564,DP02PR_0124E,ANCESTRY!!Total population!!American,estimate
+565,DP02PR_0124PE,ANCESTRY!!Total population!!American,percent
+566,DP02PR_0125E,ANCESTRY!!Total population!!Arab,estimate
+567,DP02PR_0125PE,ANCESTRY!!Total population!!Arab,percent
+568,DP02PR_0126E,ANCESTRY!!Total population!!Czech,estimate
+569,DP02PR_0126PE,ANCESTRY!!Total population!!Czech,percent
+570,DP02PR_0127E,ANCESTRY!!Total population!!Danish,estimate
+571,DP02PR_0127PE,ANCESTRY!!Total population!!Danish,percent
+572,DP02PR_0128E,ANCESTRY!!Total population!!Dutch,estimate
+573,DP02PR_0128PE,ANCESTRY!!Total population!!Dutch,percent
+574,DP02PR_0129E,ANCESTRY!!Total population!!English,estimate
+575,DP02PR_0129PE,ANCESTRY!!Total population!!English,percent
+576,DP02PR_0130E,ANCESTRY!!Total population!!French (except Basque),estimate
+577,DP02PR_0130PE,ANCESTRY!!Total population!!French (except Basque),percent
+578,DP02PR_0131E,ANCESTRY!!Total population!!French Canadian,estimate
+579,DP02PR_0131PE,ANCESTRY!!Total population!!French Canadian,percent
+580,DP02PR_0132E,ANCESTRY!!Total population!!German,estimate
+581,DP02PR_0132PE,ANCESTRY!!Total population!!German,percent
+582,DP02PR_0133E,ANCESTRY!!Total population!!Greek,estimate
+583,DP02PR_0133PE,ANCESTRY!!Total population!!Greek,percent
+584,DP02PR_0134E,ANCESTRY!!Total population!!Hungarian,estimate
+585,DP02PR_0134PE,ANCESTRY!!Total population!!Hungarian,percent
+586,DP02PR_0135E,ANCESTRY!!Total population!!Irish,estimate
+587,DP02PR_0135PE,ANCESTRY!!Total population!!Irish,percent
+588,DP02PR_0136E,ANCESTRY!!Total population!!Italian,estimate
+589,DP02PR_0136PE,ANCESTRY!!Total population!!Italian,percent
+590,DP02PR_0137E,ANCESTRY!!Total population!!Lithuanian,estimate
+591,DP02PR_0137PE,ANCESTRY!!Total population!!Lithuanian,percent
+592,DP02PR_0138E,ANCESTRY!!Total population!!Norwegian,estimate
+593,DP02PR_0138PE,ANCESTRY!!Total population!!Norwegian,percent
+594,DP02PR_0139E,ANCESTRY!!Total population!!Polish,estimate
+595,DP02PR_0139PE,ANCESTRY!!Total population!!Polish,percent
+596,DP02PR_0140E,ANCESTRY!!Total population!!Portuguese,estimate
+597,DP02PR_0140PE,ANCESTRY!!Total population!!Portuguese,percent
+598,DP02PR_0141E,ANCESTRY!!Total population!!Russian,estimate
+599,DP02PR_0141PE,ANCESTRY!!Total population!!Russian,percent
+600,DP02PR_0142E,ANCESTRY!!Total population!!Scotch-Irish,estimate
+601,DP02PR_0142PE,ANCESTRY!!Total population!!Scotch-Irish,percent
+602,DP02PR_0143E,ANCESTRY!!Total population!!Scottish,estimate
+603,DP02PR_0143PE,ANCESTRY!!Total population!!Scottish,percent
+604,DP02PR_0144E,ANCESTRY!!Total population!!Slovak,estimate
+605,DP02PR_0144PE,ANCESTRY!!Total population!!Slovak,percent
+606,DP02PR_0145E,ANCESTRY!!Total population!!Subsaharan African,estimate
+607,DP02PR_0145PE,ANCESTRY!!Total population!!Subsaharan African,percent
+608,DP02PR_0146E,ANCESTRY!!Total population!!Swedish,estimate
+609,DP02PR_0146PE,ANCESTRY!!Total population!!Swedish,percent
+610,DP02PR_0147E,ANCESTRY!!Total population!!Swiss,estimate
+611,DP02PR_0147PE,ANCESTRY!!Total population!!Swiss,percent
+612,DP02PR_0148E,ANCESTRY!!Total population!!Ukrainian,estimate
+613,DP02PR_0148PE,ANCESTRY!!Total population!!Ukrainian,percent
+614,DP02PR_0149E,ANCESTRY!!Total population!!Welsh,estimate
+615,DP02PR_0149PE,ANCESTRY!!Total population!!Welsh,percent
+616,DP02PR_0150E,ANCESTRY!!Total population!!West Indian (excluding Hispanic origin groups),estimate
+617,DP02PR_0150PE,ANCESTRY!!Total population!!West Indian (excluding Hispanic origin groups),percent
+618,DP02PR_0151E,COMPUTERS AND INTERNET USE!!Total households,estimate
+619,DP02PR_0151PE,COMPUTERS AND INTERNET USE!!Total households,percent
+620,DP02PR_0152E,COMPUTERS AND INTERNET USE!!Total households!!With a computer,estimate
+621,DP02PR_0152PE,COMPUTERS AND INTERNET USE!!Total households!!With a computer,percent
+622,DP02PR_0153E,COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription,estimate
+623,DP02PR_0153PE,COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription,percent
+624,DP03_0001E,EMPLOYMENT STATUS!!Population 16 years and over,estimate
+625,DP03_0001PE,EMPLOYMENT STATUS!!Population 16 years and over,percent
+626,DP03_0002E,EMPLOYMENT STATUS!!Population 16 years and over!!In labor force,estimate
+627,DP03_0002PE,EMPLOYMENT STATUS!!Population 16 years and over!!In labor force,percent
+628,DP03_0003E,EMPLOYMENT STATUS!!Population 16 years and over!!In labor force!!Civilian labor force,estimate
+629,DP03_0003PE,EMPLOYMENT STATUS!!Population 16 years and over!!In labor force!!Civilian labor force,percent
+630,DP03_0004E,EMPLOYMENT STATUS!!Population 16 years and over!!In labor force!!Civilian labor force!!Employed,estimate
+631,DP03_0004PE,EMPLOYMENT STATUS!!Population 16 years and over!!In labor force!!Civilian labor force!!Employed,percent
+632,DP03_0005E,EMPLOYMENT STATUS!!Population 16 years and over!!In labor force!!Civilian labor force!!Unemployed,estimate
+633,DP03_0005PE,EMPLOYMENT STATUS!!Population 16 years and over!!In labor force!!Civilian labor force!!Unemployed,percent
+634,DP03_0006E,EMPLOYMENT STATUS!!Population 16 years and over!!In labor force!!Armed Forces,estimate
+635,DP03_0006PE,EMPLOYMENT STATUS!!Population 16 years and over!!In labor force!!Armed Forces,percent
+636,DP03_0007E,EMPLOYMENT STATUS!!Population 16 years and over!!Not in labor force,estimate
+637,DP03_0007PE,EMPLOYMENT STATUS!!Population 16 years and over!!Not in labor force,percent
+638,DP03_0008E,EMPLOYMENT STATUS!!Civilian labor force,estimate
+639,DP03_0008PE,EMPLOYMENT STATUS!!Civilian labor force,percent
+640,DP03_0009E,EMPLOYMENT STATUS!!Civilian labor force!!Unemployment Rate,estimate
+641,DP03_0009PE,EMPLOYMENT STATUS!!Civilian labor force!!Unemployment Rate,percent
+642,DP03_0010E,EMPLOYMENT STATUS!!Females 16 years and over,estimate
+643,DP03_0010PE,EMPLOYMENT STATUS!!Females 16 years and over,percent
+644,DP03_0011E,EMPLOYMENT STATUS!!Females 16 years and over!!In labor force,estimate
+645,DP03_0011PE,EMPLOYMENT STATUS!!Females 16 years and over!!In labor force,percent
+646,DP03_0012E,EMPLOYMENT STATUS!!Females 16 years and over!!In labor force!!Civilian labor force,estimate
+647,DP03_0012PE,EMPLOYMENT STATUS!!Females 16 years and over!!In labor force!!Civilian labor force,percent
+648,DP03_0013E,EMPLOYMENT STATUS!!Females 16 years and over!!In labor force!!Civilian labor force!!Employed,estimate
+649,DP03_0013PE,EMPLOYMENT STATUS!!Females 16 years and over!!In labor force!!Civilian labor force!!Employed,percent
+650,DP03_0014E,EMPLOYMENT STATUS!!Own children of the householder under 6 years,estimate
+651,DP03_0014PE,EMPLOYMENT STATUS!!Own children of the householder under 6 years,percent
+652,DP03_0015E,EMPLOYMENT STATUS!!Own children of the householder under 6 years!!All parents in family in labor force,estimate
+653,DP03_0015PE,EMPLOYMENT STATUS!!Own children of the householder under 6 years!!All parents in family in labor force,percent
+654,DP03_0016E,EMPLOYMENT STATUS!!Own children of the householder 6 to 17 years,estimate
+655,DP03_0016PE,EMPLOYMENT STATUS!!Own children of the householder 6 to 17 years,percent
+656,DP03_0017E,EMPLOYMENT STATUS!!Own children of the householder 6 to 17 years!!All parents in family in labor force,estimate
+657,DP03_0017PE,EMPLOYMENT STATUS!!Own children of the householder 6 to 17 years!!All parents in family in labor force,percent
+658,DP03_0018E,COMMUTING TO WORK!!Workers 16 years and over,estimate
+659,DP03_0018PE,COMMUTING TO WORK!!Workers 16 years and over,percent
+660,DP03_0019E,"COMMUTING TO WORK!!Workers 16 years and over!!Car, truck, or van -- drove alone",estimate
+661,DP03_0019PE,"COMMUTING TO WORK!!Workers 16 years and over!!Car, truck, or van -- drove alone",percent
+662,DP03_0020E,"COMMUTING TO WORK!!Workers 16 years and over!!Car, truck, or van -- carpooled",estimate
+663,DP03_0020PE,"COMMUTING TO WORK!!Workers 16 years and over!!Car, truck, or van -- carpooled",percent
+664,DP03_0021E,COMMUTING TO WORK!!Workers 16 years and over!!Public transportation (excluding taxicab),estimate
+665,DP03_0021PE,COMMUTING TO WORK!!Workers 16 years and over!!Public transportation (excluding taxicab),percent
+666,DP03_0022E,COMMUTING TO WORK!!Workers 16 years and over!!Walked,estimate
+667,DP03_0022PE,COMMUTING TO WORK!!Workers 16 years and over!!Walked,percent
+668,DP03_0023E,COMMUTING TO WORK!!Workers 16 years and over!!Other means,estimate
+669,DP03_0023PE,COMMUTING TO WORK!!Workers 16 years and over!!Other means,percent
+670,DP03_0024E,COMMUTING TO WORK!!Workers 16 years and over!!Worked from home,estimate
+671,DP03_0024PE,COMMUTING TO WORK!!Workers 16 years and over!!Worked from home,percent
+672,DP03_0025E,COMMUTING TO WORK!!Workers 16 years and over!!Mean travel time to work (minutes),estimate
+673,DP03_0025PE,COMMUTING TO WORK!!Workers 16 years and over!!Mean travel time to work (minutes),percent
+674,DP03_0026E,OCCUPATION!!Civilian employed population 16 years and over,estimate
+675,DP03_0026PE,OCCUPATION!!Civilian employed population 16 years and over,percent
+676,DP03_0027E,"OCCUPATION!!Civilian employed population 16 years and over!!Management, business, science, and arts occupations",estimate
+677,DP03_0027PE,"OCCUPATION!!Civilian employed population 16 years and over!!Management, business, science, and arts occupations",percent
+678,DP03_0028E,OCCUPATION!!Civilian employed population 16 years and over!!Service occupations,estimate
+679,DP03_0028PE,OCCUPATION!!Civilian employed population 16 years and over!!Service occupations,percent
+680,DP03_0029E,OCCUPATION!!Civilian employed population 16 years and over!!Sales and office occupations,estimate
+681,DP03_0029PE,OCCUPATION!!Civilian employed population 16 years and over!!Sales and office occupations,percent
+682,DP03_0030E,"OCCUPATION!!Civilian employed population 16 years and over!!Natural resources, construction, and maintenance occupations",estimate
+683,DP03_0030PE,"OCCUPATION!!Civilian employed population 16 years and over!!Natural resources, construction, and maintenance occupations",percent
+684,DP03_0031E,"OCCUPATION!!Civilian employed population 16 years and over!!Production, transportation, and material moving occupations",estimate
+685,DP03_0031PE,"OCCUPATION!!Civilian employed population 16 years and over!!Production, transportation, and material moving occupations",percent
+686,DP03_0032E,INDUSTRY!!Civilian employed population 16 years and over,estimate
+687,DP03_0032PE,INDUSTRY!!Civilian employed population 16 years and over,percent
+688,DP03_0033E,"INDUSTRY!!Civilian employed population 16 years and over!!Agriculture, forestry, fishing and hunting, and mining",estimate
+689,DP03_0033PE,"INDUSTRY!!Civilian employed population 16 years and over!!Agriculture, forestry, fishing and hunting, and mining",percent
+690,DP03_0034E,INDUSTRY!!Civilian employed population 16 years and over!!Construction,estimate
+691,DP03_0034PE,INDUSTRY!!Civilian employed population 16 years and over!!Construction,percent
+692,DP03_0035E,INDUSTRY!!Civilian employed population 16 years and over!!Manufacturing,estimate
+693,DP03_0035PE,INDUSTRY!!Civilian employed population 16 years and over!!Manufacturing,percent
+694,DP03_0036E,INDUSTRY!!Civilian employed population 16 years and over!!Wholesale trade,estimate
+695,DP03_0036PE,INDUSTRY!!Civilian employed population 16 years and over!!Wholesale trade,percent
+696,DP03_0037E,INDUSTRY!!Civilian employed population 16 years and over!!Retail trade,estimate
+697,DP03_0037PE,INDUSTRY!!Civilian employed population 16 years and over!!Retail trade,percent
+698,DP03_0038E,"INDUSTRY!!Civilian employed population 16 years and over!!Transportation and warehousing, and utilities",estimate
+699,DP03_0038PE,"INDUSTRY!!Civilian employed population 16 years and over!!Transportation and warehousing, and utilities",percent
+700,DP03_0039E,INDUSTRY!!Civilian employed population 16 years and over!!Information,estimate
+701,DP03_0039PE,INDUSTRY!!Civilian employed population 16 years and over!!Information,percent
+702,DP03_0040E,"INDUSTRY!!Civilian employed population 16 years and over!!Finance and insurance, and real estate and rental and leasing",estimate
+703,DP03_0040PE,"INDUSTRY!!Civilian employed population 16 years and over!!Finance and insurance, and real estate and rental and leasing",percent
+704,DP03_0041E,"INDUSTRY!!Civilian employed population 16 years and over!!Professional, scientific, and management, and administrative and waste management services",estimate
+705,DP03_0041PE,"INDUSTRY!!Civilian employed population 16 years and over!!Professional, scientific, and management, and administrative and waste management services",percent
+706,DP03_0042E,"INDUSTRY!!Civilian employed population 16 years and over!!Educational services, and health care and social assistance",estimate
+707,DP03_0042PE,"INDUSTRY!!Civilian employed population 16 years and over!!Educational services, and health care and social assistance",percent
+708,DP03_0043E,"INDUSTRY!!Civilian employed population 16 years and over!!Arts, entertainment, and recreation, and accommodation and food services",estimate
+709,DP03_0043PE,"INDUSTRY!!Civilian employed population 16 years and over!!Arts, entertainment, and recreation, and accommodation and food services",percent
+710,DP03_0044E,"INDUSTRY!!Civilian employed population 16 years and over!!Other services, except public administration",estimate
+711,DP03_0044PE,"INDUSTRY!!Civilian employed population 16 years and over!!Other services, except public administration",percent
+712,DP03_0045E,INDUSTRY!!Civilian employed population 16 years and over!!Public administration,estimate
+713,DP03_0045PE,INDUSTRY!!Civilian employed population 16 years and over!!Public administration,percent
+714,DP03_0046E,CLASS OF WORKER!!Civilian employed population 16 years and over,estimate
+715,DP03_0046PE,CLASS OF WORKER!!Civilian employed population 16 years and over,percent
+716,DP03_0047E,CLASS OF WORKER!!Civilian employed population 16 years and over!!Private wage and salary workers,estimate
+717,DP03_0047PE,CLASS OF WORKER!!Civilian employed population 16 years and over!!Private wage and salary workers,percent
+718,DP03_0048E,CLASS OF WORKER!!Civilian employed population 16 years and over!!Government workers,estimate
+719,DP03_0048PE,CLASS OF WORKER!!Civilian employed population 16 years and over!!Government workers,percent
+720,DP03_0049E,CLASS OF WORKER!!Civilian employed population 16 years and over!!Self-employed in own not incorporated business workers,estimate
+721,DP03_0049PE,CLASS OF WORKER!!Civilian employed population 16 years and over!!Self-employed in own not incorporated business workers,percent
+722,DP03_0050E,CLASS OF WORKER!!Civilian employed population 16 years and over!!Unpaid family workers,estimate
+723,DP03_0050PE,CLASS OF WORKER!!Civilian employed population 16 years and over!!Unpaid family workers,percent
+724,DP03_0051E,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households,estimate
+725,DP03_0051PE,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households,percent
+726,DP03_0052E,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!Less than $10,000",estimate
+727,DP03_0052PE,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!Less than $10,000",percent
+728,DP03_0053E,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!$10,000 to $14,999",estimate
+729,DP03_0053PE,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!$10,000 to $14,999",percent
+730,DP03_0054E,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!$15,000 to $24,999",estimate
+731,DP03_0054PE,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!$15,000 to $24,999",percent
+732,DP03_0055E,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!$25,000 to $34,999",estimate
+733,DP03_0055PE,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!$25,000 to $34,999",percent
+734,DP03_0056E,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!$35,000 to $49,999",estimate
+735,DP03_0056PE,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!$35,000 to $49,999",percent
+736,DP03_0057E,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!$50,000 to $74,999",estimate
+737,DP03_0057PE,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!$50,000 to $74,999",percent
+738,DP03_0058E,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!$75,000 to $99,999",estimate
+739,DP03_0058PE,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!$75,000 to $99,999",percent
+740,DP03_0059E,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!$100,000 to $149,999",estimate
+741,DP03_0059PE,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!$100,000 to $149,999",percent
+742,DP03_0060E,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!$150,000 to $199,999",estimate
+743,DP03_0060PE,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!$150,000 to $199,999",percent
+744,DP03_0061E,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!$200,000 or more",estimate
+745,DP03_0061PE,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!$200,000 or more",percent
+746,DP03_0062E,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!Median household income (dollars),estimate
+747,DP03_0062PE,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!Median household income (dollars),percent
+748,DP03_0063E,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!Mean household income (dollars),estimate
+749,DP03_0063PE,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!Mean household income (dollars),percent
+750,DP03_0064E,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!With earnings,estimate
+751,DP03_0064PE,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!With earnings,percent
+752,DP03_0065E,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!With earnings!!Mean earnings (dollars),estimate
+753,DP03_0065PE,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!With earnings!!Mean earnings (dollars),percent
+754,DP03_0066E,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!With Social Security,estimate
+755,DP03_0066PE,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!With Social Security,percent
+756,DP03_0067E,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!With Social Security!!Mean Social Security income (dollars),estimate
+757,DP03_0067PE,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!With Social Security!!Mean Social Security income (dollars),percent
+758,DP03_0068E,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!With retirement income,estimate
+759,DP03_0068PE,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!With retirement income,percent
+760,DP03_0069E,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!With retirement income!!Mean retirement income (dollars),estimate
+761,DP03_0069PE,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!With retirement income!!Mean retirement income (dollars),percent
+762,DP03_0070E,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!With Supplemental Security Income,estimate
+763,DP03_0070PE,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!With Supplemental Security Income,percent
+764,DP03_0071E,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!With Supplemental Security Income!!Mean Supplemental Security Income (dollars),estimate
+765,DP03_0071PE,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!With Supplemental Security Income!!Mean Supplemental Security Income (dollars),percent
+766,DP03_0072E,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!With cash public assistance income,estimate
+767,DP03_0072PE,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!With cash public assistance income,percent
+768,DP03_0073E,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!With cash public assistance income!!Mean cash public assistance income (dollars),estimate
+769,DP03_0073PE,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!With cash public assistance income!!Mean cash public assistance income (dollars),percent
+770,DP03_0074E,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!With Food Stamp/SNAP benefits in the past 12 months,estimate
+771,DP03_0074PE,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Total households!!With Food Stamp/SNAP benefits in the past 12 months,percent
+772,DP03_0075E,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Families,estimate
+773,DP03_0075PE,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Families,percent
+774,DP03_0076E,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Families!!Less than $10,000",estimate
+775,DP03_0076PE,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Families!!Less than $10,000",percent
+776,DP03_0077E,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Families!!$10,000 to $14,999",estimate
+777,DP03_0077PE,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Families!!$10,000 to $14,999",percent
+778,DP03_0078E,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Families!!$15,000 to $24,999",estimate
+779,DP03_0078PE,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Families!!$15,000 to $24,999",percent
+780,DP03_0079E,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Families!!$25,000 to $34,999",estimate
+781,DP03_0079PE,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Families!!$25,000 to $34,999",percent
+782,DP03_0080E,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Families!!$35,000 to $49,999",estimate
+783,DP03_0080PE,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Families!!$35,000 to $49,999",percent
+784,DP03_0081E,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Families!!$50,000 to $74,999",estimate
+785,DP03_0081PE,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Families!!$50,000 to $74,999",percent
+786,DP03_0082E,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Families!!$75,000 to $99,999",estimate
+787,DP03_0082PE,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Families!!$75,000 to $99,999",percent
+788,DP03_0083E,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Families!!$100,000 to $149,999",estimate
+789,DP03_0083PE,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Families!!$100,000 to $149,999",percent
+790,DP03_0084E,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Families!!$150,000 to $199,999",estimate
+791,DP03_0084PE,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Families!!$150,000 to $199,999",percent
+792,DP03_0085E,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Families!!$200,000 or more",estimate
+793,DP03_0085PE,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Families!!$200,000 or more",percent
+794,DP03_0086E,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Families!!Median family income (dollars),estimate
+795,DP03_0086PE,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Families!!Median family income (dollars),percent
+796,DP03_0087E,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Families!!Mean family income (dollars),estimate
+797,DP03_0087PE,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Families!!Mean family income (dollars),percent
+798,DP03_0088E,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Per capita income (dollars),estimate
+799,DP03_0088PE,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Per capita income (dollars),percent
+800,DP03_0089E,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Nonfamily households,estimate
+801,DP03_0089PE,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Nonfamily households,percent
+802,DP03_0090E,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Nonfamily households!!Median nonfamily income (dollars),estimate
+803,DP03_0090PE,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Nonfamily households!!Median nonfamily income (dollars),percent
+804,DP03_0091E,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Nonfamily households!!Mean nonfamily income (dollars),estimate
+805,DP03_0091PE,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Nonfamily households!!Mean nonfamily income (dollars),percent
+806,DP03_0092E,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Median earnings for workers (dollars),estimate
+807,DP03_0092PE,INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Median earnings for workers (dollars),percent
+808,DP03_0093E,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Median earnings for male full-time, year-round workers (dollars)",estimate
+809,DP03_0093PE,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Median earnings for male full-time, year-round workers (dollars)",percent
+810,DP03_0094E,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Median earnings for female full-time, year-round workers (dollars)",estimate
+811,DP03_0094PE,"INCOME AND BENEFITS (IN 2019 INFLATION-ADJUSTED DOLLARS)!!Median earnings for female full-time, year-round workers (dollars)",percent
+812,DP03_0095E,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population,estimate
+813,DP03_0095PE,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population,percent
+814,DP03_0096E,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population!!With health insurance coverage,estimate
+815,DP03_0096PE,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population!!With health insurance coverage,percent
+816,DP03_0097E,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population!!With health insurance coverage!!With private health insurance,estimate
+817,DP03_0097PE,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population!!With health insurance coverage!!With private health insurance,percent
+818,DP03_0098E,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population!!With health insurance coverage!!With public coverage,estimate
+819,DP03_0098PE,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population!!With health insurance coverage!!With public coverage,percent
+820,DP03_0099E,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population!!No health insurance coverage,estimate
+821,DP03_0099PE,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population!!No health insurance coverage,percent
+822,DP03_0100E,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population under 19 years,estimate
+823,DP03_0100PE,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population under 19 years,percent
+824,DP03_0101E,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population under 19 years!!No health insurance coverage,estimate
+825,DP03_0101PE,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population under 19 years!!No health insurance coverage,percent
+826,DP03_0102E,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years,estimate
+827,DP03_0102PE,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years,percent
+828,DP03_0103E,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!In labor force:,estimate
+829,DP03_0103PE,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!In labor force:,percent
+830,DP03_0104E,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!In labor force:!!Employed:,estimate
+831,DP03_0104PE,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!In labor force:!!Employed:,percent
+832,DP03_0105E,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!In labor force:!!Employed:!!With health insurance coverage,estimate
+833,DP03_0105PE,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!In labor force:!!Employed:!!With health insurance coverage,percent
+834,DP03_0106E,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!In labor force:!!Employed:!!With health insurance coverage!!With private health insurance,estimate
+835,DP03_0106PE,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!In labor force:!!Employed:!!With health insurance coverage!!With private health insurance,percent
+836,DP03_0107E,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!In labor force:!!Employed:!!With health insurance coverage!!With public coverage,estimate
+837,DP03_0107PE,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!In labor force:!!Employed:!!With health insurance coverage!!With public coverage,percent
+838,DP03_0108E,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!In labor force:!!Employed:!!No health insurance coverage,estimate
+839,DP03_0108PE,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!In labor force:!!Employed:!!No health insurance coverage,percent
+840,DP03_0109E,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!In labor force:!!Unemployed:,estimate
+841,DP03_0109PE,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!In labor force:!!Unemployed:,percent
+842,DP03_0110E,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!In labor force:!!Unemployed:!!With health insurance coverage,estimate
+843,DP03_0110PE,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!In labor force:!!Unemployed:!!With health insurance coverage,percent
+844,DP03_0111E,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!In labor force:!!Unemployed:!!With health insurance coverage!!With private health insurance,estimate
+845,DP03_0111PE,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!In labor force:!!Unemployed:!!With health insurance coverage!!With private health insurance,percent
+846,DP03_0112E,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!In labor force:!!Unemployed:!!With health insurance coverage!!With public coverage,estimate
+847,DP03_0112PE,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!In labor force:!!Unemployed:!!With health insurance coverage!!With public coverage,percent
+848,DP03_0113E,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!In labor force:!!Unemployed:!!No health insurance coverage,estimate
+849,DP03_0113PE,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!In labor force:!!Unemployed:!!No health insurance coverage,percent
+850,DP03_0114E,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!Not in labor force:,estimate
+851,DP03_0114PE,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!Not in labor force:,percent
+852,DP03_0115E,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!Not in labor force:!!With health insurance coverage,estimate
+853,DP03_0115PE,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!Not in labor force:!!With health insurance coverage,percent
+854,DP03_0116E,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!Not in labor force:!!With health insurance coverage!!With private health insurance,estimate
+855,DP03_0116PE,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!Not in labor force:!!With health insurance coverage!!With private health insurance,percent
+856,DP03_0117E,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!Not in labor force:!!With health insurance coverage!!With public coverage,estimate
+857,DP03_0117PE,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!Not in labor force:!!With health insurance coverage!!With public coverage,percent
+858,DP03_0118E,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!Not in labor force:!!No health insurance coverage,estimate
+859,DP03_0118PE,HEALTH INSURANCE COVERAGE!!Civilian noninstitutionalized population 19 to 64 years!!Not in labor force:!!No health insurance coverage,percent
+860,DP03_0119E,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families,estimate
+861,DP03_0119PE,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families,percent
+862,DP03_0120E,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families!!With related children of the householder under 18 years,estimate
+863,DP03_0120PE,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families!!With related children of the householder under 18 years,percent
+864,DP03_0121E,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families!!With related children of the householder under 18 years!!With related children of the householder under 5 years only,estimate
+865,DP03_0121PE,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families!!With related children of the householder under 18 years!!With related children of the householder under 5 years only,percent
+866,DP03_0122E,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families!!Married couple families,estimate
+867,DP03_0122PE,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families!!Married couple families,percent
+868,DP03_0123E,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families!!Married couple families!!With related children of the householder under 18 years,estimate
+869,DP03_0123PE,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families!!Married couple families!!With related children of the householder under 18 years,percent
+870,DP03_0124E,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families!!Married couple families!!With related children of the householder under 18 years!!With related children of the householder under 5 years only,estimate
+871,DP03_0124PE,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families!!Married couple families!!With related children of the householder under 18 years!!With related children of the householder under 5 years only,percent
+872,DP03_0125E,"PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families!!Families with female householder, no spouse present",estimate
+873,DP03_0125PE,"PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families!!Families with female householder, no spouse present",percent
+874,DP03_0126E,"PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families!!Families with female householder, no spouse present!!With related children of the householder under 18 years",estimate
+875,DP03_0126PE,"PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families!!Families with female householder, no spouse present!!With related children of the householder under 18 years",percent
+876,DP03_0127E,"PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families!!Families with female householder, no spouse present!!With related children of the householder under 18 years!!With related children of the householder under 5 years only",estimate
+877,DP03_0127PE,"PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All families!!Families with female householder, no spouse present!!With related children of the householder under 18 years!!With related children of the householder under 5 years only",percent
+878,DP03_0128E,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people,estimate
+879,DP03_0128PE,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people,percent
+880,DP03_0129E,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!Under 18 years,estimate
+881,DP03_0129PE,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!Under 18 years,percent
+882,DP03_0130E,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!Under 18 years!!Related children of the householder under 18 years,estimate
+883,DP03_0130PE,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!Under 18 years!!Related children of the householder under 18 years,percent
+884,DP03_0131E,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!Under 18 years!!Related children of the householder under 18 years!!Related children of the householder under 5 years,estimate
+885,DP03_0131PE,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!Under 18 years!!Related children of the householder under 18 years!!Related children of the householder under 5 years,percent
+886,DP03_0132E,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!Under 18 years!!Related children of the householder under 18 years!!Related children of the householder 5 to 17 years,estimate
+887,DP03_0132PE,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!Under 18 years!!Related children of the householder under 18 years!!Related children of the householder 5 to 17 years,percent
+888,DP03_0133E,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!18 years and over,estimate
+889,DP03_0133PE,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!18 years and over,percent
+890,DP03_0134E,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!18 years and over!!18 to 64 years,estimate
+891,DP03_0134PE,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!18 years and over!!18 to 64 years,percent
+892,DP03_0135E,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!18 years and over!!65 years and over,estimate
+893,DP03_0135PE,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!18 years and over!!65 years and over,percent
+894,DP03_0136E,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!People in families,estimate
+895,DP03_0136PE,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!People in families,percent
+896,DP03_0137E,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!Unrelated individuals 15 years and over,estimate
+897,DP03_0137PE,PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL!!All people!!Unrelated individuals 15 years and over,percent
+898,DP04_0001E,HOUSING OCCUPANCY!!Total housing units,estimate
+899,DP04_0001PE,HOUSING OCCUPANCY!!Total housing units,percent
+900,DP04_0002E,HOUSING OCCUPANCY!!Total housing units!!Occupied housing units,estimate
+901,DP04_0002PE,HOUSING OCCUPANCY!!Total housing units!!Occupied housing units,percent
+902,DP04_0003E,HOUSING OCCUPANCY!!Total housing units!!Vacant housing units,estimate
+903,DP04_0003PE,HOUSING OCCUPANCY!!Total housing units!!Vacant housing units,percent
+904,DP04_0004E,HOUSING OCCUPANCY!!Total housing units!!Homeowner vacancy rate,estimate
+905,DP04_0004PE,HOUSING OCCUPANCY!!Total housing units!!Homeowner vacancy rate,percent
+906,DP04_0005E,HOUSING OCCUPANCY!!Total housing units!!Rental vacancy rate,estimate
+907,DP04_0005PE,HOUSING OCCUPANCY!!Total housing units!!Rental vacancy rate,percent
+908,DP04_0006E,UNITS IN STRUCTURE!!Total housing units,estimate
+909,DP04_0006PE,UNITS IN STRUCTURE!!Total housing units,percent
+910,DP04_0007E,"UNITS IN STRUCTURE!!Total housing units!!1-unit, detached",estimate
+911,DP04_0007PE,"UNITS IN STRUCTURE!!Total housing units!!1-unit, detached",percent
+912,DP04_0008E,"UNITS IN STRUCTURE!!Total housing units!!1-unit, attached",estimate
+913,DP04_0008PE,"UNITS IN STRUCTURE!!Total housing units!!1-unit, attached",percent
+914,DP04_0009E,UNITS IN STRUCTURE!!Total housing units!!2 units,estimate
+915,DP04_0009PE,UNITS IN STRUCTURE!!Total housing units!!2 units,percent
+916,DP04_0010E,UNITS IN STRUCTURE!!Total housing units!!3 or 4 units,estimate
+917,DP04_0010PE,UNITS IN STRUCTURE!!Total housing units!!3 or 4 units,percent
+918,DP04_0011E,UNITS IN STRUCTURE!!Total housing units!!5 to 9 units,estimate
+919,DP04_0011PE,UNITS IN STRUCTURE!!Total housing units!!5 to 9 units,percent
+920,DP04_0012E,UNITS IN STRUCTURE!!Total housing units!!10 to 19 units,estimate
+921,DP04_0012PE,UNITS IN STRUCTURE!!Total housing units!!10 to 19 units,percent
+922,DP04_0013E,UNITS IN STRUCTURE!!Total housing units!!20 or more units,estimate
+923,DP04_0013PE,UNITS IN STRUCTURE!!Total housing units!!20 or more units,percent
+924,DP04_0014E,UNITS IN STRUCTURE!!Total housing units!!Mobile home,estimate
+925,DP04_0014PE,UNITS IN STRUCTURE!!Total housing units!!Mobile home,percent
+926,DP04_0015E,"UNITS IN STRUCTURE!!Total housing units!!Boat, RV, van, etc.",estimate
+927,DP04_0015PE,"UNITS IN STRUCTURE!!Total housing units!!Boat, RV, van, etc.",percent
+928,DP04_0016E,YEAR STRUCTURE BUILT!!Total housing units,estimate
+929,DP04_0016PE,YEAR STRUCTURE BUILT!!Total housing units,percent
+930,DP04_0017E,YEAR STRUCTURE BUILT!!Total housing units!!Built 2014 or later,estimate
+931,DP04_0017PE,YEAR STRUCTURE BUILT!!Total housing units!!Built 2014 or later,percent
+932,DP04_0018E,YEAR STRUCTURE BUILT!!Total housing units!!Built 2010 to 2013,estimate
+933,DP04_0018PE,YEAR STRUCTURE BUILT!!Total housing units!!Built 2010 to 2013,percent
+934,DP04_0019E,YEAR STRUCTURE BUILT!!Total housing units!!Built 2000 to 2009,estimate
+935,DP04_0019PE,YEAR STRUCTURE BUILT!!Total housing units!!Built 2000 to 2009,percent
+936,DP04_0020E,YEAR STRUCTURE BUILT!!Total housing units!!Built 1990 to 1999,estimate
+937,DP04_0020PE,YEAR STRUCTURE BUILT!!Total housing units!!Built 1990 to 1999,percent
+938,DP04_0021E,YEAR STRUCTURE BUILT!!Total housing units!!Built 1980 to 1989,estimate
+939,DP04_0021PE,YEAR STRUCTURE BUILT!!Total housing units!!Built 1980 to 1989,percent
+940,DP04_0022E,YEAR STRUCTURE BUILT!!Total housing units!!Built 1970 to 1979,estimate
+941,DP04_0022PE,YEAR STRUCTURE BUILT!!Total housing units!!Built 1970 to 1979,percent
+942,DP04_0023E,YEAR STRUCTURE BUILT!!Total housing units!!Built 1960 to 1969,estimate
+943,DP04_0023PE,YEAR STRUCTURE BUILT!!Total housing units!!Built 1960 to 1969,percent
+944,DP04_0024E,YEAR STRUCTURE BUILT!!Total housing units!!Built 1950 to 1959,estimate
+945,DP04_0024PE,YEAR STRUCTURE BUILT!!Total housing units!!Built 1950 to 1959,percent
+946,DP04_0025E,YEAR STRUCTURE BUILT!!Total housing units!!Built 1940 to 1949,estimate
+947,DP04_0025PE,YEAR STRUCTURE BUILT!!Total housing units!!Built 1940 to 1949,percent
+948,DP04_0026E,YEAR STRUCTURE BUILT!!Total housing units!!Built 1939 or earlier,estimate
+949,DP04_0026PE,YEAR STRUCTURE BUILT!!Total housing units!!Built 1939 or earlier,percent
+950,DP04_0027E,ROOMS!!Total housing units,estimate
+951,DP04_0027PE,ROOMS!!Total housing units,percent
+952,DP04_0028E,ROOMS!!Total housing units!!1 room,estimate
+953,DP04_0028PE,ROOMS!!Total housing units!!1 room,percent
+954,DP04_0029E,ROOMS!!Total housing units!!2 rooms,estimate
+955,DP04_0029PE,ROOMS!!Total housing units!!2 rooms,percent
+956,DP04_0030E,ROOMS!!Total housing units!!3 rooms,estimate
+957,DP04_0030PE,ROOMS!!Total housing units!!3 rooms,percent
+958,DP04_0031E,ROOMS!!Total housing units!!4 rooms,estimate
+959,DP04_0031PE,ROOMS!!Total housing units!!4 rooms,percent
+960,DP04_0032E,ROOMS!!Total housing units!!5 rooms,estimate
+961,DP04_0032PE,ROOMS!!Total housing units!!5 rooms,percent
+962,DP04_0033E,ROOMS!!Total housing units!!6 rooms,estimate
+963,DP04_0033PE,ROOMS!!Total housing units!!6 rooms,percent
+964,DP04_0034E,ROOMS!!Total housing units!!7 rooms,estimate
+965,DP04_0034PE,ROOMS!!Total housing units!!7 rooms,percent
+966,DP04_0035E,ROOMS!!Total housing units!!8 rooms,estimate
+967,DP04_0035PE,ROOMS!!Total housing units!!8 rooms,percent
+968,DP04_0036E,ROOMS!!Total housing units!!9 rooms or more,estimate
+969,DP04_0036PE,ROOMS!!Total housing units!!9 rooms or more,percent
+970,DP04_0037E,ROOMS!!Total housing units!!Median rooms,estimate
+971,DP04_0037PE,ROOMS!!Total housing units!!Median rooms,percent
+972,DP04_0038E,BEDROOMS!!Total housing units,estimate
+973,DP04_0038PE,BEDROOMS!!Total housing units,percent
+974,DP04_0039E,BEDROOMS!!Total housing units!!No bedroom,estimate
+975,DP04_0039PE,BEDROOMS!!Total housing units!!No bedroom,percent
+976,DP04_0040E,BEDROOMS!!Total housing units!!1 bedroom,estimate
+977,DP04_0040PE,BEDROOMS!!Total housing units!!1 bedroom,percent
+978,DP04_0041E,BEDROOMS!!Total housing units!!2 bedrooms,estimate
+979,DP04_0041PE,BEDROOMS!!Total housing units!!2 bedrooms,percent
+980,DP04_0042E,BEDROOMS!!Total housing units!!3 bedrooms,estimate
+981,DP04_0042PE,BEDROOMS!!Total housing units!!3 bedrooms,percent
+982,DP04_0043E,BEDROOMS!!Total housing units!!4 bedrooms,estimate
+983,DP04_0043PE,BEDROOMS!!Total housing units!!4 bedrooms,percent
+984,DP04_0044E,BEDROOMS!!Total housing units!!5 or more bedrooms,estimate
+985,DP04_0044PE,BEDROOMS!!Total housing units!!5 or more bedrooms,percent
+986,DP04_0045E,HOUSING TENURE!!Occupied housing units,estimate
+987,DP04_0045PE,HOUSING TENURE!!Occupied housing units,percent
+988,DP04_0046E,HOUSING TENURE!!Occupied housing units!!Owner-occupied,estimate
+989,DP04_0046PE,HOUSING TENURE!!Occupied housing units!!Owner-occupied,percent
+990,DP04_0047E,HOUSING TENURE!!Occupied housing units!!Renter-occupied,estimate
+991,DP04_0047PE,HOUSING TENURE!!Occupied housing units!!Renter-occupied,percent
+992,DP04_0048E,HOUSING TENURE!!Occupied housing units!!Average household size of owner-occupied unit,estimate
+993,DP04_0048PE,HOUSING TENURE!!Occupied housing units!!Average household size of owner-occupied unit,percent
+994,DP04_0049E,HOUSING TENURE!!Occupied housing units!!Average household size of renter-occupied unit,estimate
+995,DP04_0049PE,HOUSING TENURE!!Occupied housing units!!Average household size of renter-occupied unit,percent
+996,DP04_0050E,YEAR HOUSEHOLDER MOVED INTO UNIT!!Occupied housing units,estimate
+997,DP04_0050PE,YEAR HOUSEHOLDER MOVED INTO UNIT!!Occupied housing units,percent
+998,DP04_0051E,YEAR HOUSEHOLDER MOVED INTO UNIT!!Occupied housing units!!Moved in 2017 or later,estimate
+999,DP04_0051PE,YEAR HOUSEHOLDER MOVED INTO UNIT!!Occupied housing units!!Moved in 2017 or later,percent
+1000,DP04_0052E,YEAR HOUSEHOLDER MOVED INTO UNIT!!Occupied housing units!!Moved in 2015 to 2016,estimate
+1001,DP04_0052PE,YEAR HOUSEHOLDER MOVED INTO UNIT!!Occupied housing units!!Moved in 2015 to 2016,percent
+1002,DP04_0053E,YEAR HOUSEHOLDER MOVED INTO UNIT!!Occupied housing units!!Moved in 2010 to 2014,estimate
+1003,DP04_0053PE,YEAR HOUSEHOLDER MOVED INTO UNIT!!Occupied housing units!!Moved in 2010 to 2014,percent
+1004,DP04_0054E,YEAR HOUSEHOLDER MOVED INTO UNIT!!Occupied housing units!!Moved in 2000 to 2009,estimate
+1005,DP04_0054PE,YEAR HOUSEHOLDER MOVED INTO UNIT!!Occupied housing units!!Moved in 2000 to 2009,percent
+1006,DP04_0055E,YEAR HOUSEHOLDER MOVED INTO UNIT!!Occupied housing units!!Moved in 1990 to 1999,estimate
+1007,DP04_0055PE,YEAR HOUSEHOLDER MOVED INTO UNIT!!Occupied housing units!!Moved in 1990 to 1999,percent
+1008,DP04_0056E,YEAR HOUSEHOLDER MOVED INTO UNIT!!Occupied housing units!!Moved in 1989 and earlier,estimate
+1009,DP04_0056PE,YEAR HOUSEHOLDER MOVED INTO UNIT!!Occupied housing units!!Moved in 1989 and earlier,percent
+1010,DP04_0057E,VEHICLES AVAILABLE!!Occupied housing units,estimate
+1011,DP04_0057PE,VEHICLES AVAILABLE!!Occupied housing units,percent
+1012,DP04_0058E,VEHICLES AVAILABLE!!Occupied housing units!!No vehicles available,estimate
+1013,DP04_0058PE,VEHICLES AVAILABLE!!Occupied housing units!!No vehicles available,percent
+1014,DP04_0059E,VEHICLES AVAILABLE!!Occupied housing units!!1 vehicle available,estimate
+1015,DP04_0059PE,VEHICLES AVAILABLE!!Occupied housing units!!1 vehicle available,percent
+1016,DP04_0060E,VEHICLES AVAILABLE!!Occupied housing units!!2 vehicles available,estimate
+1017,DP04_0060PE,VEHICLES AVAILABLE!!Occupied housing units!!2 vehicles available,percent
+1018,DP04_0061E,VEHICLES AVAILABLE!!Occupied housing units!!3 or more vehicles available,estimate
+1019,DP04_0061PE,VEHICLES AVAILABLE!!Occupied housing units!!3 or more vehicles available,percent
+1020,DP04_0062E,HOUSE HEATING FUEL!!Occupied housing units,estimate
+1021,DP04_0062PE,HOUSE HEATING FUEL!!Occupied housing units,percent
+1022,DP04_0063E,HOUSE HEATING FUEL!!Occupied housing units!!Utility gas,estimate
+1023,DP04_0063PE,HOUSE HEATING FUEL!!Occupied housing units!!Utility gas,percent
+1024,DP04_0064E,"HOUSE HEATING FUEL!!Occupied housing units!!Bottled, tank, or LP gas",estimate
+1025,DP04_0064PE,"HOUSE HEATING FUEL!!Occupied housing units!!Bottled, tank, or LP gas",percent
+1026,DP04_0065E,HOUSE HEATING FUEL!!Occupied housing units!!Electricity,estimate
+1027,DP04_0065PE,HOUSE HEATING FUEL!!Occupied housing units!!Electricity,percent
+1028,DP04_0066E,"HOUSE HEATING FUEL!!Occupied housing units!!Fuel oil, kerosene, etc.",estimate
+1029,DP04_0066PE,"HOUSE HEATING FUEL!!Occupied housing units!!Fuel oil, kerosene, etc.",percent
+1030,DP04_0067E,HOUSE HEATING FUEL!!Occupied housing units!!Coal or coke,estimate
+1031,DP04_0067PE,HOUSE HEATING FUEL!!Occupied housing units!!Coal or coke,percent
+1032,DP04_0068E,HOUSE HEATING FUEL!!Occupied housing units!!Wood,estimate
+1033,DP04_0068PE,HOUSE HEATING FUEL!!Occupied housing units!!Wood,percent
+1034,DP04_0069E,HOUSE HEATING FUEL!!Occupied housing units!!Solar energy,estimate
+1035,DP04_0069PE,HOUSE HEATING FUEL!!Occupied housing units!!Solar energy,percent
+1036,DP04_0070E,HOUSE HEATING FUEL!!Occupied housing units!!Other fuel,estimate
+1037,DP04_0070PE,HOUSE HEATING FUEL!!Occupied housing units!!Other fuel,percent
+1038,DP04_0071E,HOUSE HEATING FUEL!!Occupied housing units!!No fuel used,estimate
+1039,DP04_0071PE,HOUSE HEATING FUEL!!Occupied housing units!!No fuel used,percent
+1040,DP04_0072E,SELECTED CHARACTERISTICS!!Occupied housing units,estimate
+1041,DP04_0072PE,SELECTED CHARACTERISTICS!!Occupied housing units,percent
+1042,DP04_0073E,SELECTED CHARACTERISTICS!!Occupied housing units!!Lacking complete plumbing facilities,estimate
+1043,DP04_0073PE,SELECTED CHARACTERISTICS!!Occupied housing units!!Lacking complete plumbing facilities,percent
+1044,DP04_0074E,SELECTED CHARACTERISTICS!!Occupied housing units!!Lacking complete kitchen facilities,estimate
+1045,DP04_0074PE,SELECTED CHARACTERISTICS!!Occupied housing units!!Lacking complete kitchen facilities,percent
+1046,DP04_0075E,SELECTED CHARACTERISTICS!!Occupied housing units!!No telephone service available,estimate
+1047,DP04_0075PE,SELECTED CHARACTERISTICS!!Occupied housing units!!No telephone service available,percent
+1048,DP04_0076E,OCCUPANTS PER ROOM!!Occupied housing units,estimate
+1049,DP04_0076PE,OCCUPANTS PER ROOM!!Occupied housing units,percent
+1050,DP04_0077E,OCCUPANTS PER ROOM!!Occupied housing units!!1.00 or less,estimate
+1051,DP04_0077PE,OCCUPANTS PER ROOM!!Occupied housing units!!1.00 or less,percent
+1052,DP04_0078E,OCCUPANTS PER ROOM!!Occupied housing units!!1.01 to 1.50,estimate
+1053,DP04_0078PE,OCCUPANTS PER ROOM!!Occupied housing units!!1.01 to 1.50,percent
+1054,DP04_0079E,OCCUPANTS PER ROOM!!Occupied housing units!!1.51 or more,estimate
+1055,DP04_0079PE,OCCUPANTS PER ROOM!!Occupied housing units!!1.51 or more,percent
+1056,DP04_0080E,VALUE!!Owner-occupied units,estimate
+1057,DP04_0080PE,VALUE!!Owner-occupied units,percent
+1058,DP04_0081E,"VALUE!!Owner-occupied units!!Less than $50,000",estimate
+1059,DP04_0081PE,"VALUE!!Owner-occupied units!!Less than $50,000",percent
+1060,DP04_0082E,"VALUE!!Owner-occupied units!!$50,000 to $99,999",estimate
+1061,DP04_0082PE,"VALUE!!Owner-occupied units!!$50,000 to $99,999",percent
+1062,DP04_0083E,"VALUE!!Owner-occupied units!!$100,000 to $149,999",estimate
+1063,DP04_0083PE,"VALUE!!Owner-occupied units!!$100,000 to $149,999",percent
+1064,DP04_0084E,"VALUE!!Owner-occupied units!!$150,000 to $199,999",estimate
+1065,DP04_0084PE,"VALUE!!Owner-occupied units!!$150,000 to $199,999",percent
+1066,DP04_0085E,"VALUE!!Owner-occupied units!!$200,000 to $299,999",estimate
+1067,DP04_0085PE,"VALUE!!Owner-occupied units!!$200,000 to $299,999",percent
+1068,DP04_0086E,"VALUE!!Owner-occupied units!!$300,000 to $499,999",estimate
+1069,DP04_0086PE,"VALUE!!Owner-occupied units!!$300,000 to $499,999",percent
+1070,DP04_0087E,"VALUE!!Owner-occupied units!!$500,000 to $999,999",estimate
+1071,DP04_0087PE,"VALUE!!Owner-occupied units!!$500,000 to $999,999",percent
+1072,DP04_0088E,"VALUE!!Owner-occupied units!!$1,000,000 or more",estimate
+1073,DP04_0088PE,"VALUE!!Owner-occupied units!!$1,000,000 or more",percent
+1074,DP04_0089E,VALUE!!Owner-occupied units!!Median (dollars),estimate
+1075,DP04_0089PE,VALUE!!Owner-occupied units!!Median (dollars),percent
+1076,DP04_0090E,MORTGAGE STATUS!!Owner-occupied units,estimate
+1077,DP04_0090PE,MORTGAGE STATUS!!Owner-occupied units,percent
+1078,DP04_0091E,MORTGAGE STATUS!!Owner-occupied units!!Housing units with a mortgage,estimate
+1079,DP04_0091PE,MORTGAGE STATUS!!Owner-occupied units!!Housing units with a mortgage,percent
+1080,DP04_0092E,MORTGAGE STATUS!!Owner-occupied units!!Housing units without a mortgage,estimate
+1081,DP04_0092PE,MORTGAGE STATUS!!Owner-occupied units!!Housing units without a mortgage,percent
+1082,DP04_0093E,SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units with a mortgage,estimate
+1083,DP04_0093PE,SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units with a mortgage,percent
+1084,DP04_0094E,SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units with a mortgage!!Less than $500,estimate
+1085,DP04_0094PE,SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units with a mortgage!!Less than $500,percent
+1086,DP04_0095E,SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units with a mortgage!!$500 to $999,estimate
+1087,DP04_0095PE,SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units with a mortgage!!$500 to $999,percent
+1088,DP04_0096E,"SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units with a mortgage!!$1,000 to $1,499",estimate
+1089,DP04_0096PE,"SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units with a mortgage!!$1,000 to $1,499",percent
+1090,DP04_0097E,"SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units with a mortgage!!$1,500 to $1,999",estimate
+1091,DP04_0097PE,"SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units with a mortgage!!$1,500 to $1,999",percent
+1092,DP04_0098E,"SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units with a mortgage!!$2,000 to $2,499",estimate
+1093,DP04_0098PE,"SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units with a mortgage!!$2,000 to $2,499",percent
+1094,DP04_0099E,"SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units with a mortgage!!$2,500 to $2,999",estimate
+1095,DP04_0099PE,"SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units with a mortgage!!$2,500 to $2,999",percent
+1096,DP04_0100E,"SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units with a mortgage!!$3,000 or more",estimate
+1097,DP04_0100PE,"SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units with a mortgage!!$3,000 or more",percent
+1098,DP04_0101E,SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units with a mortgage!!Median (dollars),estimate
+1099,DP04_0101PE,SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units with a mortgage!!Median (dollars),percent
+1100,DP04_0102E,SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units without a mortgage,estimate
+1101,DP04_0102PE,SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units without a mortgage,percent
+1102,DP04_0103E,SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units without a mortgage!!Less than $250,estimate
+1103,DP04_0103PE,SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units without a mortgage!!Less than $250,percent
+1104,DP04_0104E,SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units without a mortgage!!$250 to $399,estimate
+1105,DP04_0104PE,SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units without a mortgage!!$250 to $399,percent
+1106,DP04_0105E,SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units without a mortgage!!$400 to $599,estimate
+1107,DP04_0105PE,SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units without a mortgage!!$400 to $599,percent
+1108,DP04_0106E,SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units without a mortgage!!$600 to $799,estimate
+1109,DP04_0106PE,SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units without a mortgage!!$600 to $799,percent
+1110,DP04_0107E,SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units without a mortgage!!$800 to $999,estimate
+1111,DP04_0107PE,SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units without a mortgage!!$800 to $999,percent
+1112,DP04_0108E,"SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units without a mortgage!!$1,000 or more",estimate
+1113,DP04_0108PE,"SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units without a mortgage!!$1,000 or more",percent
+1114,DP04_0109E,SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units without a mortgage!!Median (dollars),estimate
+1115,DP04_0109PE,SELECTED MONTHLY OWNER COSTS (SMOC)!!Housing units without a mortgage!!Median (dollars),percent
+1116,DP04_0110E,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing units with a mortgage (excluding units where SMOCAPI cannot be computed),estimate
+1117,DP04_0110PE,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing units with a mortgage (excluding units where SMOCAPI cannot be computed),percent
+1118,DP04_0111E,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing units with a mortgage (excluding units where SMOCAPI cannot be computed)!!Less than 20.0 percent,estimate
+1119,DP04_0111PE,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing units with a mortgage (excluding units where SMOCAPI cannot be computed)!!Less than 20.0 percent,percent
+1120,DP04_0112E,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing units with a mortgage (excluding units where SMOCAPI cannot be computed)!!20.0 to 24.9 percent,estimate
+1121,DP04_0112PE,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing units with a mortgage (excluding units where SMOCAPI cannot be computed)!!20.0 to 24.9 percent,percent
+1122,DP04_0113E,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing units with a mortgage (excluding units where SMOCAPI cannot be computed)!!25.0 to 29.9 percent,estimate
+1123,DP04_0113PE,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing units with a mortgage (excluding units where SMOCAPI cannot be computed)!!25.0 to 29.9 percent,percent
+1124,DP04_0114E,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing units with a mortgage (excluding units where SMOCAPI cannot be computed)!!30.0 to 34.9 percent,estimate
+1125,DP04_0114PE,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing units with a mortgage (excluding units where SMOCAPI cannot be computed)!!30.0 to 34.9 percent,percent
+1126,DP04_0115E,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing units with a mortgage (excluding units where SMOCAPI cannot be computed)!!35.0 percent or more,estimate
+1127,DP04_0115PE,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing units with a mortgage (excluding units where SMOCAPI cannot be computed)!!35.0 percent or more,percent
+1128,DP04_0116E,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing units with a mortgage (excluding units where SMOCAPI cannot be computed)!!Not computed,estimate
+1129,DP04_0116PE,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing units with a mortgage (excluding units where SMOCAPI cannot be computed)!!Not computed,percent
+1130,DP04_0117E,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing unit without a mortgage (excluding units where SMOCAPI cannot be computed),estimate
+1131,DP04_0117PE,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing unit without a mortgage (excluding units where SMOCAPI cannot be computed),percent
+1132,DP04_0118E,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing unit without a mortgage (excluding units where SMOCAPI cannot be computed)!!Less than 10.0 percent,estimate
+1133,DP04_0118PE,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing unit without a mortgage (excluding units where SMOCAPI cannot be computed)!!Less than 10.0 percent,percent
+1134,DP04_0119E,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing unit without a mortgage (excluding units where SMOCAPI cannot be computed)!!10.0 to 14.9 percent,estimate
+1135,DP04_0119PE,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing unit without a mortgage (excluding units where SMOCAPI cannot be computed)!!10.0 to 14.9 percent,percent
+1136,DP04_0120E,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing unit without a mortgage (excluding units where SMOCAPI cannot be computed)!!15.0 to 19.9 percent,estimate
+1137,DP04_0120PE,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing unit without a mortgage (excluding units where SMOCAPI cannot be computed)!!15.0 to 19.9 percent,percent
+1138,DP04_0121E,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing unit without a mortgage (excluding units where SMOCAPI cannot be computed)!!20.0 to 24.9 percent,estimate
+1139,DP04_0121PE,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing unit without a mortgage (excluding units where SMOCAPI cannot be computed)!!20.0 to 24.9 percent,percent
+1140,DP04_0122E,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing unit without a mortgage (excluding units where SMOCAPI cannot be computed)!!25.0 to 29.9 percent,estimate
+1141,DP04_0122PE,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing unit without a mortgage (excluding units where SMOCAPI cannot be computed)!!25.0 to 29.9 percent,percent
+1142,DP04_0123E,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing unit without a mortgage (excluding units where SMOCAPI cannot be computed)!!30.0 to 34.9 percent,estimate
+1143,DP04_0123PE,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing unit without a mortgage (excluding units where SMOCAPI cannot be computed)!!30.0 to 34.9 percent,percent
+1144,DP04_0124E,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing unit without a mortgage (excluding units where SMOCAPI cannot be computed)!!35.0 percent or more,estimate
+1145,DP04_0124PE,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing unit without a mortgage (excluding units where SMOCAPI cannot be computed)!!35.0 percent or more,percent
+1146,DP04_0125E,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing unit without a mortgage (excluding units where SMOCAPI cannot be computed)!!Not computed,estimate
+1147,DP04_0125PE,SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME (SMOCAPI)!!Housing unit without a mortgage (excluding units where SMOCAPI cannot be computed)!!Not computed,percent
+1148,DP04_0126E,GROSS RENT!!Occupied units paying rent,estimate
+1149,DP04_0126PE,GROSS RENT!!Occupied units paying rent,percent
+1150,DP04_0127E,GROSS RENT!!Occupied units paying rent!!Less than $500,estimate
+1151,DP04_0127PE,GROSS RENT!!Occupied units paying rent!!Less than $500,percent
+1152,DP04_0128E,GROSS RENT!!Occupied units paying rent!!$500 to $999,estimate
+1153,DP04_0128PE,GROSS RENT!!Occupied units paying rent!!$500 to $999,percent
+1154,DP04_0129E,"GROSS RENT!!Occupied units paying rent!!$1,000 to $1,499",estimate
+1155,DP04_0129PE,"GROSS RENT!!Occupied units paying rent!!$1,000 to $1,499",percent
+1156,DP04_0130E,"GROSS RENT!!Occupied units paying rent!!$1,500 to $1,999",estimate
+1157,DP04_0130PE,"GROSS RENT!!Occupied units paying rent!!$1,500 to $1,999",percent
+1158,DP04_0131E,"GROSS RENT!!Occupied units paying rent!!$2,000 to $2,499",estimate
+1159,DP04_0131PE,"GROSS RENT!!Occupied units paying rent!!$2,000 to $2,499",percent
+1160,DP04_0132E,"GROSS RENT!!Occupied units paying rent!!$2,500 to $2,999",estimate
+1161,DP04_0132PE,"GROSS RENT!!Occupied units paying rent!!$2,500 to $2,999",percent
+1162,DP04_0133E,"GROSS RENT!!Occupied units paying rent!!$3,000 or more",estimate
+1163,DP04_0133PE,"GROSS RENT!!Occupied units paying rent!!$3,000 or more",percent
+1164,DP04_0134E,GROSS RENT!!Occupied units paying rent!!Median (dollars),estimate
+1165,DP04_0134PE,GROSS RENT!!Occupied units paying rent!!Median (dollars),percent
+1166,DP04_0135E,GROSS RENT!!Occupied units paying rent!!No rent paid,estimate
+1167,DP04_0135PE,GROSS RENT!!Occupied units paying rent!!No rent paid,percent
+1168,DP04_0136E,GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed),estimate
+1169,DP04_0136PE,GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed),percent
+1170,DP04_0137E,GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!Less than 15.0 percent,estimate
+1171,DP04_0137PE,GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!Less than 15.0 percent,percent
+1172,DP04_0138E,GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!15.0 to 19.9 percent,estimate
+1173,DP04_0138PE,GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!15.0 to 19.9 percent,percent
+1174,DP04_0139E,GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!20.0 to 24.9 percent,estimate
+1175,DP04_0139PE,GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!20.0 to 24.9 percent,percent
+1176,DP04_0140E,GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!25.0 to 29.9 percent,estimate
+1177,DP04_0140PE,GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!25.0 to 29.9 percent,percent
+1178,DP04_0141E,GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!30.0 to 34.9 percent,estimate
+1179,DP04_0141PE,GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!30.0 to 34.9 percent,percent
+1180,DP04_0142E,GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!35.0 percent or more,estimate
+1181,DP04_0142PE,GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!35.0 percent or more,percent
+1182,DP04_0143E,GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!Not computed,estimate
+1183,DP04_0143PE,GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME (GRAPI)!!Occupied units paying rent (excluding units where GRAPI cannot be computed)!!Not computed,percent
+1184,DP05_0001E,SEX AND AGE!!Total population,estimate
+1185,DP05_0001PE,SEX AND AGE!!Total population,percent
+1186,DP05_0002E,SEX AND AGE!!Total population!!Male,estimate
+1187,DP05_0002PE,SEX AND AGE!!Total population!!Male,percent
+1188,DP05_0003E,SEX AND AGE!!Total population!!Female,estimate
+1189,DP05_0003PE,SEX AND AGE!!Total population!!Female,percent
+1190,DP05_0004E,SEX AND AGE!!Total population!!Sex ratio (males per 100 females),estimate
+1191,DP05_0004PE,SEX AND AGE!!Total population!!Sex ratio (males per 100 females),percent
+1192,DP05_0005E,SEX AND AGE!!Total population!!Under 5 years,estimate
+1193,DP05_0005PE,SEX AND AGE!!Total population!!Under 5 years,percent
+1194,DP05_0006E,SEX AND AGE!!Total population!!5 to 9 years,estimate
+1195,DP05_0006PE,SEX AND AGE!!Total population!!5 to 9 years,percent
+1196,DP05_0007E,SEX AND AGE!!Total population!!10 to 14 years,estimate
+1197,DP05_0007PE,SEX AND AGE!!Total population!!10 to 14 years,percent
+1198,DP05_0008E,SEX AND AGE!!Total population!!15 to 19 years,estimate
+1199,DP05_0008PE,SEX AND AGE!!Total population!!15 to 19 years,percent
+1200,DP05_0009E,SEX AND AGE!!Total population!!20 to 24 years,estimate
+1201,DP05_0009PE,SEX AND AGE!!Total population!!20 to 24 years,percent
+1202,DP05_0010E,SEX AND AGE!!Total population!!25 to 34 years,estimate
+1203,DP05_0010PE,SEX AND AGE!!Total population!!25 to 34 years,percent
+1204,DP05_0011E,SEX AND AGE!!Total population!!35 to 44 years,estimate
+1205,DP05_0011PE,SEX AND AGE!!Total population!!35 to 44 years,percent
+1206,DP05_0012E,SEX AND AGE!!Total population!!45 to 54 years,estimate
+1207,DP05_0012PE,SEX AND AGE!!Total population!!45 to 54 years,percent
+1208,DP05_0013E,SEX AND AGE!!Total population!!55 to 59 years,estimate
+1209,DP05_0013PE,SEX AND AGE!!Total population!!55 to 59 years,percent
+1210,DP05_0014E,SEX AND AGE!!Total population!!60 to 64 years,estimate
+1211,DP05_0014PE,SEX AND AGE!!Total population!!60 to 64 years,percent
+1212,DP05_0015E,SEX AND AGE!!Total population!!65 to 74 years,estimate
+1213,DP05_0015PE,SEX AND AGE!!Total population!!65 to 74 years,percent
+1214,DP05_0016E,SEX AND AGE!!Total population!!75 to 84 years,estimate
+1215,DP05_0016PE,SEX AND AGE!!Total population!!75 to 84 years,percent
+1216,DP05_0017E,SEX AND AGE!!Total population!!85 years and over,estimate
+1217,DP05_0017PE,SEX AND AGE!!Total population!!85 years and over,percent
+1218,DP05_0018E,SEX AND AGE!!Total population!!Median age (years),estimate
+1219,DP05_0018PE,SEX AND AGE!!Total population!!Median age (years),percent
+1220,DP05_0019E,SEX AND AGE!!Total population!!Under 18 years,estimate
+1221,DP05_0019PE,SEX AND AGE!!Total population!!Under 18 years,percent
+1222,DP05_0020E,SEX AND AGE!!Total population!!16 years and over,estimate
+1223,DP05_0020PE,SEX AND AGE!!Total population!!16 years and over,percent
+1224,DP05_0021E,SEX AND AGE!!Total population!!18 years and over,estimate
+1225,DP05_0021PE,SEX AND AGE!!Total population!!18 years and over,percent
+1226,DP05_0022E,SEX AND AGE!!Total population!!21 years and over,estimate
+1227,DP05_0022PE,SEX AND AGE!!Total population!!21 years and over,percent
+1228,DP05_0023E,SEX AND AGE!!Total population!!62 years and over,estimate
+1229,DP05_0023PE,SEX AND AGE!!Total population!!62 years and over,percent
+1230,DP05_0024E,SEX AND AGE!!Total population!!65 years and over,estimate
+1231,DP05_0024PE,SEX AND AGE!!Total population!!65 years and over,percent
+1232,DP05_0025E,SEX AND AGE!!Total population!!18 years and over,estimate
+1233,DP05_0025PE,SEX AND AGE!!Total population!!18 years and over,percent
+1234,DP05_0026E,SEX AND AGE!!Total population!!18 years and over!!Male,estimate
+1235,DP05_0026PE,SEX AND AGE!!Total population!!18 years and over!!Male,percent
+1236,DP05_0027E,SEX AND AGE!!Total population!!18 years and over!!Female,estimate
+1237,DP05_0027PE,SEX AND AGE!!Total population!!18 years and over!!Female,percent
+1238,DP05_0028E,SEX AND AGE!!Total population!!18 years and over!!Sex ratio (males per 100 females),estimate
+1239,DP05_0028PE,SEX AND AGE!!Total population!!18 years and over!!Sex ratio (males per 100 females),percent
+1240,DP05_0029E,SEX AND AGE!!Total population!!65 years and over,estimate
+1241,DP05_0029PE,SEX AND AGE!!Total population!!65 years and over,percent
+1242,DP05_0030E,SEX AND AGE!!Total population!!65 years and over!!Male,estimate
+1243,DP05_0030PE,SEX AND AGE!!Total population!!65 years and over!!Male,percent
+1244,DP05_0031E,SEX AND AGE!!Total population!!65 years and over!!Female,estimate
+1245,DP05_0031PE,SEX AND AGE!!Total population!!65 years and over!!Female,percent
+1246,DP05_0032E,SEX AND AGE!!Total population!!65 years and over!!Sex ratio (males per 100 females),estimate
+1247,DP05_0032PE,SEX AND AGE!!Total population!!65 years and over!!Sex ratio (males per 100 females),percent
+1248,DP05_0033E,RACE!!Total population,estimate
+1249,DP05_0033PE,RACE!!Total population,percent
+1250,DP05_0034E,RACE!!Total population!!One race,estimate
+1251,DP05_0034PE,RACE!!Total population!!One race,percent
+1252,DP05_0035E,RACE!!Total population!!Two or more races,estimate
+1253,DP05_0035PE,RACE!!Total population!!Two or more races,percent
+1254,DP05_0036E,RACE!!Total population!!One race,estimate
+1255,DP05_0036PE,RACE!!Total population!!One race,percent
+1256,DP05_0037E,RACE!!Total population!!One race!!White,estimate
+1257,DP05_0037PE,RACE!!Total population!!One race!!White,percent
+1258,DP05_0038E,RACE!!Total population!!One race!!Black or African American,estimate
+1259,DP05_0038PE,RACE!!Total population!!One race!!Black or African American,percent
+1260,DP05_0039E,RACE!!Total population!!One race!!American Indian and Alaska Native,estimate
+1261,DP05_0039PE,RACE!!Total population!!One race!!American Indian and Alaska Native,percent
+1262,DP05_0040E,RACE!!Total population!!One race!!American Indian and Alaska Native!!Cherokee tribal grouping,estimate
+1263,DP05_0040PE,RACE!!Total population!!One race!!American Indian and Alaska Native!!Cherokee tribal grouping,percent
+1264,DP05_0041E,RACE!!Total population!!One race!!American Indian and Alaska Native!!Chippewa tribal grouping,estimate
+1265,DP05_0041PE,RACE!!Total population!!One race!!American Indian and Alaska Native!!Chippewa tribal grouping,percent
+1266,DP05_0042E,RACE!!Total population!!One race!!American Indian and Alaska Native!!Navajo tribal grouping,estimate
+1267,DP05_0042PE,RACE!!Total population!!One race!!American Indian and Alaska Native!!Navajo tribal grouping,percent
+1268,DP05_0043E,RACE!!Total population!!One race!!American Indian and Alaska Native!!Sioux tribal grouping,estimate
+1269,DP05_0043PE,RACE!!Total population!!One race!!American Indian and Alaska Native!!Sioux tribal grouping,percent
+1270,DP05_0044E,RACE!!Total population!!One race!!Asian,estimate
+1271,DP05_0044PE,RACE!!Total population!!One race!!Asian,percent
+1272,DP05_0045E,RACE!!Total population!!One race!!Asian!!Asian Indian,estimate
+1273,DP05_0045PE,RACE!!Total population!!One race!!Asian!!Asian Indian,percent
+1274,DP05_0046E,RACE!!Total population!!One race!!Asian!!Chinese,estimate
+1275,DP05_0046PE,RACE!!Total population!!One race!!Asian!!Chinese,percent
+1276,DP05_0047E,RACE!!Total population!!One race!!Asian!!Filipino,estimate
+1277,DP05_0047PE,RACE!!Total population!!One race!!Asian!!Filipino,percent
+1278,DP05_0048E,RACE!!Total population!!One race!!Asian!!Japanese,estimate
+1279,DP05_0048PE,RACE!!Total population!!One race!!Asian!!Japanese,percent
+1280,DP05_0049E,RACE!!Total population!!One race!!Asian!!Korean,estimate
+1281,DP05_0049PE,RACE!!Total population!!One race!!Asian!!Korean,percent
+1282,DP05_0050E,RACE!!Total population!!One race!!Asian!!Vietnamese,estimate
+1283,DP05_0050PE,RACE!!Total population!!One race!!Asian!!Vietnamese,percent
+1284,DP05_0051E,RACE!!Total population!!One race!!Asian!!Other Asian,estimate
+1285,DP05_0051PE,RACE!!Total population!!One race!!Asian!!Other Asian,percent
+1286,DP05_0052E,RACE!!Total population!!One race!!Native Hawaiian and Other Pacific Islander,estimate
+1287,DP05_0052PE,RACE!!Total population!!One race!!Native Hawaiian and Other Pacific Islander,percent
+1288,DP05_0053E,RACE!!Total population!!One race!!Native Hawaiian and Other Pacific Islander!!Native Hawaiian,estimate
+1289,DP05_0053PE,RACE!!Total population!!One race!!Native Hawaiian and Other Pacific Islander!!Native Hawaiian,percent
+1290,DP05_0054E,RACE!!Total population!!One race!!Native Hawaiian and Other Pacific Islander!!Guamanian or Chamorro,estimate
+1291,DP05_0054PE,RACE!!Total population!!One race!!Native Hawaiian and Other Pacific Islander!!Guamanian or Chamorro,percent
+1292,DP05_0055E,RACE!!Total population!!One race!!Native Hawaiian and Other Pacific Islander!!Samoan,estimate
+1293,DP05_0055PE,RACE!!Total population!!One race!!Native Hawaiian and Other Pacific Islander!!Samoan,percent
+1294,DP05_0056E,RACE!!Total population!!One race!!Native Hawaiian and Other Pacific Islander!!Other Pacific Islander,estimate
+1295,DP05_0056PE,RACE!!Total population!!One race!!Native Hawaiian and Other Pacific Islander!!Other Pacific Islander,percent
+1296,DP05_0057E,RACE!!Total population!!One race!!Some other race,estimate
+1297,DP05_0057PE,RACE!!Total population!!One race!!Some other race,percent
+1298,DP05_0058E,RACE!!Total population!!Two or more races,estimate
+1299,DP05_0058PE,RACE!!Total population!!Two or more races,percent
+1300,DP05_0059E,RACE!!Total population!!Two or more races!!White and Black or African American,estimate
+1301,DP05_0059PE,RACE!!Total population!!Two or more races!!White and Black or African American,percent
+1302,DP05_0060E,RACE!!Total population!!Two or more races!!White and American Indian and Alaska Native,estimate
+1303,DP05_0060PE,RACE!!Total population!!Two or more races!!White and American Indian and Alaska Native,percent
+1304,DP05_0061E,RACE!!Total population!!Two or more races!!White and Asian,estimate
+1305,DP05_0061PE,RACE!!Total population!!Two or more races!!White and Asian,percent
+1306,DP05_0062E,RACE!!Total population!!Two or more races!!Black or African American and American Indian and Alaska Native,estimate
+1307,DP05_0062PE,RACE!!Total population!!Two or more races!!Black or African American and American Indian and Alaska Native,percent
+1308,DP05_0063E,Race alone or in combination with one or more other races!!Total population,estimate
+1309,DP05_0063PE,Race alone or in combination with one or more other races!!Total population,percent
+1310,DP05_0064E,Race alone or in combination with one or more other races!!Total population!!White,estimate
+1311,DP05_0064PE,Race alone or in combination with one or more other races!!Total population!!White,percent
+1312,DP05_0065E,Race alone or in combination with one or more other races!!Total population!!Black or African American,estimate
+1313,DP05_0065PE,Race alone or in combination with one or more other races!!Total population!!Black or African American,percent
+1314,DP05_0066E,Race alone or in combination with one or more other races!!Total population!!American Indian and Alaska Native,estimate
+1315,DP05_0066PE,Race alone or in combination with one or more other races!!Total population!!American Indian and Alaska Native,percent
+1316,DP05_0067E,Race alone or in combination with one or more other races!!Total population!!Asian,estimate
+1317,DP05_0067PE,Race alone or in combination with one or more other races!!Total population!!Asian,percent
+1318,DP05_0068E,Race alone or in combination with one or more other races!!Total population!!Native Hawaiian and Other Pacific Islander,estimate
+1319,DP05_0068PE,Race alone or in combination with one or more other races!!Total population!!Native Hawaiian and Other Pacific Islander,percent
+1320,DP05_0069E,Race alone or in combination with one or more other races!!Total population!!Some other race,estimate
+1321,DP05_0069PE,Race alone or in combination with one or more other races!!Total population!!Some other race,percent
+1322,DP05_0070E,HISPANIC OR LATINO AND RACE!!Total population,estimate
+1323,DP05_0070PE,HISPANIC OR LATINO AND RACE!!Total population,percent
+1324,DP05_0071E,HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race),estimate
+1325,DP05_0071PE,HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race),percent
+1326,DP05_0072E,HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)!!Mexican,estimate
+1327,DP05_0072PE,HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)!!Mexican,percent
+1328,DP05_0073E,HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)!!Puerto Rican,estimate
+1329,DP05_0073PE,HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)!!Puerto Rican,percent
+1330,DP05_0074E,HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)!!Cuban,estimate
+1331,DP05_0074PE,HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)!!Cuban,percent
+1332,DP05_0075E,HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)!!Other Hispanic or Latino,estimate
+1333,DP05_0075PE,HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)!!Other Hispanic or Latino,percent
+1334,DP05_0076E,HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino,estimate
+1335,DP05_0076PE,HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino,percent
+1336,DP05_0077E,HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!White alone,estimate
+1337,DP05_0077PE,HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!White alone,percent
+1338,DP05_0078E,HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Black or African American alone,estimate
+1339,DP05_0078PE,HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Black or African American alone,percent
+1340,DP05_0079E,HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!American Indian and Alaska Native alone,estimate
+1341,DP05_0079PE,HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!American Indian and Alaska Native alone,percent
+1342,DP05_0080E,HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Asian alone,estimate
+1343,DP05_0080PE,HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Asian alone,percent
+1344,DP05_0081E,HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Native Hawaiian and Other Pacific Islander alone,estimate
+1345,DP05_0081PE,HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Native Hawaiian and Other Pacific Islander alone,percent
+1346,DP05_0082E,HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Some other race alone,estimate
+1347,DP05_0082PE,HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Some other race alone,percent
+1348,DP05_0083E,HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Two or more races,estimate
+1349,DP05_0083PE,HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Two or more races,percent
+1350,DP05_0084E,HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Two or more races!!Two races including Some other race,estimate
+1351,DP05_0084PE,HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Two or more races!!Two races including Some other race,percent
+1352,DP05_0085E,"HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Two or more races!!Two races excluding Some other race, and Three or more races",estimate
+1353,DP05_0085PE,"HISPANIC OR LATINO AND RACE!!Total population!!Not Hispanic or Latino!!Two or more races!!Two races excluding Some other race, and Three or more races",percent
+1354,DP05_0086E,Total housing units,estimate
+1355,DP05_0086PE,Total housing units,percent
+1356,DP05_0087E,"CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population",estimate
+1357,DP05_0087PE,"CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population",percent
+1358,DP05_0088E,"CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Male",estimate
+1359,DP05_0088PE,"CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Male",percent
+1360,DP05_0089E,"CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Female",estimate
+1361,DP05_0089PE,"CITIZEN, VOTING AGE POPULATION!!Citizen, 18 and over population!!Female",percent
+0,EMP,Number of employees,estimate
+1,EMP_N,Noise range for number of paid employees for pay period including March 12,estimate
+2,EMPSZES,Employment size of establishments,estimate
+3,ESTAB,Number of establishments,estimate
+5,GEO_ID,Geographic identifier code,estimate
+11,NAICS2017,2017 NAICS code,estimate
+12,PAYANN,"Annual payroll ($1,000)",estimate
+13,PAYANN_N,Noise range for annual payroll,estimate
+14,PAYQTR1,"First-quarter payroll ($1,000)",estimate
+15,PAYQTR1_N,Noise range for first-quarter payroll (%),percent

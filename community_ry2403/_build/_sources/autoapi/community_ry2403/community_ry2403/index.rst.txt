@@ -1,0 +1,186 @@
+:py:mod:`community_ry2403.community_ry2403`
+===========================================
+
+.. py:module:: community_ry2403.community_ry2403
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   community_ry2403.community_ry2403.variables
+   community_ry2403.community_ry2403.search
+
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   community_ry2403.community_ry2403.get_ratio
+   community_ry2403.community_ry2403.get_code
+   community_ry2403.community_ry2403.business_data
+   community_ry2403.community_ry2403.census_data
+
+
+
+Attributes
+~~~~~~~~~~
+
+.. autoapisummary::
+
+   community_ry2403.community_ry2403.label_path
+   community_ry2403.community_ry2403.label_list
+   community_ry2403.community_ry2403.codebook_path
+   community_ry2403.community_ry2403.codebook
+
+
+.. py:data:: label_path
+   
+
+   
+
+.. py:data:: label_list
+   
+
+   
+
+.. py:data:: codebook_path
+   
+
+   
+
+.. py:data:: codebook
+   
+
+   
+
+.. py:function:: get_ratio(str1, str2)
+
+
+.. py:function:: get_code(area_code, level)
+
+
+.. py:function:: business_data(year, variable, area_code, industry)
+
+
+.. py:function:: census_data(year, variable, area_code)
+
+
+.. py:class:: variables
+
+   Bases: :py:obj:`object`
+
+   .. py:method:: find_variable(self, keyword)
+
+      a function to find available variables from American Census Survey(ACS), Zip Code Businiss Pattern(ZCBP) and Community Business Pattern(CBP) API.
+
+      :param keyword:
+      :type keyword: str
+      :param A string that you wish to look up:
+
+      :returns: * *Pandas dataframe*
+                * *A number of variables that you may intereseted in with labels and variable codes*
+
+      .. rubric:: Examples
+
+      >>> find_variable('total households marry people percent')
+
+      [OUT]   variable        label
+          0   DP02_0001E      HOUSEHOLDS BY TYPE!!Total households
+          1   DP02_0001PE     HOUSEHOLDS BY TYPE!!Total households
+          2   DP02_0014E      HOUSEHOLDS BY TYPE!!Total households!!Househol...
+          3   DP02_0014PE     HOUSEHOLDS BY TYPE!!Total households!!Househol...
+          4   DP02_0015E      HOUSEHOLDS BY TYPE!!Total households!!Househol...
+          5   DP02_0015PE     HOUSEHOLDS BY TYPE!!Total households!!Househol...
+          6   DP02PR_0001E    HOUSEHOLDS BY TYPE!!Total households
+          7   DP02PR_0001PE   HOUSEHOLDS BY TYPE!!Total households
+          8   DP02PR_0014E    HOUSEHOLDS BY TYPE!!Total households!!Househol...
+          9   DP02PR_0014PE   HOUSEHOLDS BY TYPE!!Total households!!Househol...
+          10  DP02PR_0015E    HOUSEHOLDS BY TYPE!!Total households!!Househol...
+          11  DP02PR_0015PE   HOUSEHOLDS BY TYPE!!Total households!!Househol...
+
+
+
+.. py:class:: search
+
+   Bases: :py:obj:`object`
+
+   .. py:method:: census(self, area_code, geography, year, variable)
+
+      A function to get community census data with customized report level (ZIP / ZCTA) from American Census Survey(ACS) API.
+      If report level is ZCTA, keep the original value.
+      If report level is ZIP, for percent data, use the original value within the correspondent ZCTA area,
+      and for absolute data, use the mean estimate within correspondent ZCTA area.
+
+      :param area_code:
+      :type area_code: a list of strings
+      :param ZIP code or ZCTA code:
+      :param geography:
+      :type geography: str
+      :param data reported level:
+      :type data reported level: ZIP or ZCTA; case-insensitive.
+      :param year:
+      :type year: int
+      :param data reported year:
+      :param variable:
+      :type variable: a list of strings
+      :param variable codes of data:
+
+      :returns:
+      :rtype: A pandas dataframe containing the report level, the area code and values you looked up
+
+      .. rubric:: Examples
+
+      >>> area_code = ['10025','10036']
+      >>> geography = 'Zip'
+      >>> year = 2019
+      >>> variable = ['DP02_0001E','DP02_0001PE']
+      >>> census(area_code,geography,year, variable)
+
+      [OUT] ZIP       DP02_0001E_ZIP  DP02_0001PE_ZIP
+          0   10025   17260.0 17260
+          1   10036   13785.0 41355
+
+
+   .. py:method:: business(self, area_code, geography, year, variable, industry)
+
+      A function to get community business data with customized report level (ZIP / ZCTA) from Zip Code Businiss Pattern(ZCBP) and Community Business Pattern(CBP) API.
+      If report level is ZIP, keep the original value.
+      If report level is ZCTA, for percent data, use the mean estimate within the correspondent ZIP areas,
+      and for absolute data, use the sum estimate within correspondent ZIP areas.
+
+      :param area_code: ZIP code or ZCTA code
+      :type area_code: a list of strings
+      :param geography: data reported level: ZIP or ZCTA; case-insensitive.
+      :type geography: str
+      :param year: data reported year
+      :type year: int
+      :param variable: variable codes of data
+      :type variable: a list of strings
+      :param industry: NAICS 2017 Code identifying which industry of business data you wish to get
+      :type industry: int
+
+      :returns:
+      :rtype: A pandas dataframe containing the report level, the area code and values you looked up
+
+      .. rubric:: Examples
+
+      >>> area_code = ['79925','10025']
+      >>> geography = 'Zcta'
+      >>> year = 2019
+      >>> variable = ['ESTAB','EMP_N','PAYQTR1_N']
+      >>> industry=72
+      >>> business(area_code, geography ,year, variable, industry)
+
+      [OUT] ZCTA      PAYQTR1_N_ZCTA  EMP_N_ZCTA      ESTAB_ZCTA
+          0   10025   0       0       255
+          1   79925   0       0       214
+
+
+

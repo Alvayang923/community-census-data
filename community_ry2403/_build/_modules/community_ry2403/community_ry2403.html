@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>community_ry2403.community_ry2403 &mdash; community_ry2403  documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/togglebutton.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/mystnb.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/togglebutton.js"></script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> community_ry2403
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../example.html">Example usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../changelog.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../conduct.html">Code of Conduct</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../autoapi/index.html">API Reference</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">community_ry2403</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../index.html">Module code</a> &raquo;</li>
+      <li>community_ry2403.community_ry2403</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for community_ry2403.community_ry2403</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">from</span> <span class="nn">fuzzywuzzy</span> <span class="kn">import</span> <span class="n">fuzz</span>
+
+<span class="c1">#------------------------------------------------------------------------------------- data prepared from web scraping</span>
+<span class="n">label_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="vm">__file__</span><span class="p">),</span> <span class="s1">&#39;label_list.csv&#39;</span><span class="p">)</span>
+<span class="n">label_list</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">label_path</span><span class="p">)</span>
+<span class="n">codebook_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="vm">__file__</span><span class="p">),</span> <span class="s1">&#39;codebook.csv&#39;</span><span class="p">)</span>
+<span class="n">codebook</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">codebook_path</span><span class="p">,</span> <span class="n">dtype</span> <span class="o">=</span><span class="s1">&#39;str&#39;</span><span class="p">)</span>
+
+
+<span class="c1">#------------------------------------------------------------------------------------- functions prepared</span>
+<span class="c1"># for fuzzy search</span>
+<div class="viewcode-block" id="get_ratio"><a class="viewcode-back" href="../../autoapi/community_ry2403/community_ry2403/index.html#community_ry2403.community_ry2403.get_ratio">[docs]</a><span class="k">def</span> <span class="nf">get_ratio</span><span class="p">(</span><span class="n">str1</span><span class="p">,</span><span class="n">str2</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">fuzz</span><span class="o">.</span><span class="n">token_set_ratio</span><span class="p">(</span><span class="n">str1</span><span class="p">,</span><span class="n">str2</span><span class="p">)</span></div>
+
+
+<span class="c1">#prepare function:  convert report level (zip-zcta)</span>
+<div class="viewcode-block" id="get_code"><a class="viewcode-back" href="../../autoapi/community_ry2403/community_ry2403/index.html#community_ry2403.community_ry2403.get_code">[docs]</a><span class="k">def</span> <span class="nf">get_code</span><span class="p">(</span><span class="n">area_code</span><span class="p">,</span><span class="n">level</span><span class="p">):</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="n">codebook</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span> <span class="n">codebook</span><span class="p">[</span><span class="n">level</span><span class="o">.</span><span class="n">upper</span><span class="p">()]</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">area_code</span><span class="p">),</span> <span class="p">:]</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">a</span><span class="p">)</span></div>
+
+
+<span class="c1">#prepare function: get business data from API</span>
+<div class="viewcode-block" id="business_data"><a class="viewcode-back" href="../../autoapi/community_ry2403/community_ry2403/index.html#community_ry2403.community_ry2403.business_data">[docs]</a><span class="k">def</span> <span class="nf">business_data</span><span class="p">(</span><span class="n">year</span><span class="p">,</span><span class="n">variable</span><span class="p">,</span><span class="n">area_code</span><span class="p">,</span><span class="n">industry</span><span class="p">):</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">dsource</span> <span class="o">=</span> <span class="s1">&#39;zbp&#39;</span> <span class="k">if</span> <span class="n">year</span> <span class="o">&lt;</span><span class="mi">2018</span> <span class="k">else</span> <span class="s1">&#39;cbp&#39;</span>
+        <span class="n">base_url</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">&#39;https://api.census.gov/data/</span><span class="si">{</span><span class="n">year</span><span class="si">}</span><span class="s1">/</span><span class="si">{</span><span class="n">dsource</span><span class="si">}</span><span class="s1">&#39;</span>
+
+        <span class="n">zipcode</span> <span class="o">=</span> <span class="s1">&#39;,&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">area_code</span><span class="p">)</span>
+        <span class="n">cols</span> <span class="o">=</span> <span class="s1">&#39;,&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">variable</span><span class="p">)</span>
+        <span class="n">sector</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">industry</span><span class="p">)</span>   <span class="c1">#only allow single value</span>
+
+        <span class="n">search</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">base_url</span><span class="si">}</span><span class="s1">?get=</span><span class="si">{</span><span class="n">cols</span><span class="si">}</span><span class="s1">&amp;for=zipcode:</span><span class="si">{</span><span class="n">zipcode</span><span class="si">}</span><span class="s1">&amp;NAICS2017=</span><span class="si">{</span><span class="n">sector</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span> 
+        <span class="n">search</span><span class="o">.</span><span class="n">raise_for_status</span><span class="p">()</span>
+    <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Other error occurred: </span><span class="si">{</span><span class="n">err</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">search</span><span class="o">.</span><span class="n">json</span><span class="p">())</span>
+        <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;zip code&#39;</span><span class="p">:</span><span class="s1">&#39;ZIP&#39;</span><span class="p">})</span> <span class="c1"># make the first row be the header</span>
+        
+        <span class="n">cols</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">&#39;ZIP&#39;</span><span class="p">)</span>
+        <span class="n">df</span><span class="p">[</span><span class="n">cols</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">cols</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">to_numeric</span><span class="p">,</span> <span class="n">errors</span><span class="o">=</span><span class="s1">&#39;coerce&#39;</span><span class="p">)</span>    <span class="c1"># convert all columns except &#39;ZIP&#39; to integer</span>
+        
+        <span class="k">return</span><span class="p">(</span><span class="n">df</span><span class="p">)</span></div>
+
+<span class="c1"># prepare function: get census data</span>
+<div class="viewcode-block" id="census_data"><a class="viewcode-back" href="../../autoapi/community_ry2403/community_ry2403/index.html#community_ry2403.community_ry2403.census_data">[docs]</a><span class="k">def</span> <span class="nf">census_data</span><span class="p">(</span><span class="n">year</span><span class="p">,</span><span class="n">variable</span><span class="p">,</span><span class="n">area_code</span><span class="p">):</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">base_url</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">&#39;https://api.census.gov/data/</span><span class="si">{</span><span class="n">year</span><span class="si">}</span><span class="s1">/acs/acs5/profile&#39;</span>
+
+        <span class="n">zipcode</span> <span class="o">=</span> <span class="s1">&#39;,&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">area_code</span><span class="p">)</span>
+        <span class="n">cols</span> <span class="o">=</span> <span class="s1">&#39;,&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">variable</span><span class="p">)</span>
+        <span class="n">state</span> <span class="o">=</span> <span class="n">get_code</span><span class="p">(</span><span class="n">area_code</span><span class="p">,</span><span class="n">level</span><span class="o">=</span><span class="s1">&#39;zcta&#39;</span><span class="p">)[</span><span class="s1">&#39;STATE_CODE&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
+
+        <span class="n">search</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">base_url</span><span class="si">}</span><span class="s1">?get=</span><span class="si">{</span><span class="n">cols</span><span class="si">}</span><span class="s1">&amp;for=zip%20code%20tabulation%20area:</span><span class="si">{</span><span class="n">zipcode</span><span class="si">}</span><span class="s1">&amp;in=state:</span><span class="si">{</span><span class="n">state</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+        <span class="n">search</span><span class="o">.</span><span class="n">raise_for_status</span><span class="p">()</span>
+    <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Other error occurred: </span><span class="si">{</span><span class="n">err</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">search</span><span class="o">.</span><span class="n">json</span><span class="p">())</span>
+        <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span><span class="mi">0</span><span class="p">:</span><span class="nb">len</span><span class="p">(</span><span class="n">variable</span><span class="p">)]</span>     <span class="c1"># make the first row be the header</span>
+        <span class="n">df</span><span class="p">[</span><span class="s1">&#39;ZCTA&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">area_code</span>
+        
+        <span class="n">cols</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">&#39;ZCTA&#39;</span><span class="p">)</span>
+        <span class="n">df</span><span class="p">[</span><span class="n">cols</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">cols</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">to_numeric</span><span class="p">,</span> <span class="n">errors</span><span class="o">=</span><span class="s1">&#39;coerce&#39;</span><span class="p">)</span>    <span class="c1"># convert all columns except &#39;ZIP&#39; to integer</span>
+
+        <span class="k">return</span><span class="p">(</span><span class="n">df</span><span class="p">)</span></div>
+
+
+<span class="c1">#------------------------------------------------------------------------------------- class1: find avaible variables with fuzzy search</span>
+<div class="viewcode-block" id="variables"><a class="viewcode-back" href="../../autoapi/community_ry2403/community_ry2403/index.html#community_ry2403.community_ry2403.variables">[docs]</a><span class="k">class</span> <span class="nc">variables</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">pass</span>
+
+<div class="viewcode-block" id="variables.find_variable"><a class="viewcode-back" href="../../autoapi/community_ry2403/community_ry2403/index.html#community_ry2403.community_ry2403.variables.find_variable">[docs]</a>    <span class="k">def</span> <span class="nf">find_variable</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">keyword</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        a function to find available variables from American Census Survey(ACS), Zip Code Businiss Pattern(ZCBP) and Community Business Pattern(CBP) API.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        keyword : str</span>
+<span class="sd">        A string that you wish to look up </span>
+
+<span class="sd">        Returns</span>
+<span class="sd">        ----------</span>
+<span class="sd">        Pandas dataframe</span>
+<span class="sd">        A number of variables that you may intereseted in with labels and variable codes</span>
+
+<span class="sd">        Examples</span>
+<span class="sd">        ----------</span>
+<span class="sd">        &gt;&gt;&gt; find_variable(&#39;total households marry people percent&#39;)</span>
+
+<span class="sd">        [OUT]   variable	label</span>
+<span class="sd">            0	DP02_0001E	HOUSEHOLDS BY TYPE!!Total households</span>
+<span class="sd">            1	DP02_0001PE	HOUSEHOLDS BY TYPE!!Total households</span>
+<span class="sd">            2	DP02_0014E	HOUSEHOLDS BY TYPE!!Total households!!Househol...</span>
+<span class="sd">            3	DP02_0014PE	HOUSEHOLDS BY TYPE!!Total households!!Househol...</span>
+<span class="sd">            4	DP02_0015E	HOUSEHOLDS BY TYPE!!Total households!!Househol...</span>
+<span class="sd">            5	DP02_0015PE	HOUSEHOLDS BY TYPE!!Total households!!Househol...</span>
+<span class="sd">            6	DP02PR_0001E	HOUSEHOLDS BY TYPE!!Total households</span>
+<span class="sd">            7	DP02PR_0001PE	HOUSEHOLDS BY TYPE!!Total households</span>
+<span class="sd">            8	DP02PR_0014E	HOUSEHOLDS BY TYPE!!Total households!!Househol...</span>
+<span class="sd">            9	DP02PR_0014PE	HOUSEHOLDS BY TYPE!!Total households!!Househol...</span>
+<span class="sd">            10	DP02PR_0015E	HOUSEHOLDS BY TYPE!!Total households!!Househol...</span>
+<span class="sd">            11	DP02PR_0015PE	HOUSEHOLDS BY TYPE!!Total households!!Househol...</span>
+<span class="sd">    </span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">assert</span> <span class="nb">type</span><span class="p">(</span><span class="n">keyword</span><span class="p">)</span><span class="o">==</span><span class="nb">str</span><span class="p">,</span> <span class="s1">&#39;keyword should be a string&#39;</span>
+        
+        <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;variable&#39;</span><span class="p">,</span><span class="s1">&#39;label&#39;</span><span class="p">])</span>
+        <span class="n">label</span> <span class="o">=</span> <span class="n">label_list</span><span class="p">[</span><span class="s1">&#39;labels&#39;</span><span class="p">]</span>
+        <span class="n">variable</span> <span class="o">=</span> <span class="n">label_list</span><span class="p">[</span><span class="s1">&#39;Name&#39;</span><span class="p">]</span>
+        <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">label</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">i</span><span class="p">,</span><span class="n">doc</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">label</span><span class="p">):</span>
+            <span class="n">score</span> <span class="o">=</span> <span class="n">get_ratio</span><span class="p">(</span><span class="n">keyword</span><span class="p">,</span><span class="n">doc</span><span class="p">)</span>
+            <span class="n">new_row</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">({</span><span class="s1">&#39;variable&#39;</span><span class="p">:</span><span class="n">variable</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="s1">&#39;label&#39;</span><span class="p">:</span><span class="n">doc</span><span class="p">})</span>
+            <span class="k">if</span> <span class="n">score</span> <span class="o">&gt;</span> <span class="mi">70</span><span class="p">:</span>
+                <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">new_row</span><span class="p">,</span><span class="n">ignore_index</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="k">return</span><span class="p">(</span><span class="n">df</span><span class="p">)</span></div></div>
+
+
+<span class="c1">#-------------------------------------------------------------------------------------class2: get census &amp; business data with customized report level</span>
+<div class="viewcode-block" id="search"><a class="viewcode-back" href="../../autoapi/community_ry2403/community_ry2403/index.html#community_ry2403.community_ry2403.search">[docs]</a><span class="k">class</span> <span class="nc">search</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">pass</span>
+
+<div class="viewcode-block" id="search.census"><a class="viewcode-back" href="../../autoapi/community_ry2403/community_ry2403/index.html#community_ry2403.community_ry2403.search.census">[docs]</a>    <span class="k">def</span> <span class="nf">census</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">area_code</span><span class="p">,</span><span class="n">geography</span><span class="p">,</span><span class="n">year</span><span class="p">,</span> <span class="n">variable</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        A function to get community census data with customized report level (ZIP / ZCTA) from American Census Survey(ACS) API.</span>
+<span class="sd">        If report level is ZCTA, keep the original value.</span>
+<span class="sd">        If report level is ZIP, for percent data, use the original value within the correspondent ZCTA area, </span>
+<span class="sd">        and for absolute data, use the mean estimate within correspondent ZCTA area.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        area_code: a list of strings</span>
+<span class="sd">        ZIP code or ZCTA code</span>
+<span class="sd">        geography: str</span>
+<span class="sd">        data reported level: ZIP or ZCTA; case-insensitive.</span>
+<span class="sd">        year: int</span>
+<span class="sd">        data reported year</span>
+<span class="sd">        variable: a list of strings </span>
+<span class="sd">        variable codes of data</span>
+
+<span class="sd">        Returns</span>
+<span class="sd">        ----------</span>
+<span class="sd">        A pandas dataframe containing the report level, the area code and values you looked up</span>
+
+
+<span class="sd">        Examples</span>
+<span class="sd">        ----------</span>
+<span class="sd">        &gt;&gt;&gt; area_code = [&#39;10025&#39;,&#39;10036&#39;]</span>
+<span class="sd">        &gt;&gt;&gt; geography = &#39;Zip&#39;</span>
+<span class="sd">        &gt;&gt;&gt; year = 2019</span>
+<span class="sd">        &gt;&gt;&gt; variable = [&#39;DP02_0001E&#39;,&#39;DP02_0001PE&#39;]</span>
+<span class="sd">        &gt;&gt;&gt; census(area_code,geography,year, variable)</span>
+
+<span class="sd">        [OUT] ZIP	DP02_0001E_ZIP	DP02_0001PE_ZIP</span>
+<span class="sd">            0	10025	17260.0	17260</span>
+<span class="sd">            1	10036	13785.0	41355</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">assert</span> <span class="nb">all</span><span class="p">(</span><span class="nb">isinstance</span><span class="p">(</span><span class="n">item</span><span class="p">,</span> <span class="nb">str</span><span class="p">)</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">area_code</span><span class="p">),</span> <span class="s2">&quot;area_code should be a list of strings&quot;</span>
+        <span class="k">assert</span> <span class="n">geography</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="ow">in</span><span class="p">([</span><span class="s1">&#39;zip&#39;</span><span class="p">,</span><span class="s1">&#39;zcta&#39;</span><span class="p">]),</span> <span class="sa">f</span><span class="s2">&quot;Data can only be reported by ZCTA or ZIP level, but geography is </span><span class="si">{</span><span class="n">geography</span><span class="si">}</span><span class="s2">.&quot;</span>
+        <span class="k">assert</span> <span class="nb">type</span><span class="p">(</span><span class="n">year</span><span class="p">)</span><span class="o">==</span><span class="nb">int</span><span class="p">,</span><span class="s1">&#39;year should be an integer&#39;</span>
+        <span class="k">assert</span> <span class="nb">all</span><span class="p">(</span><span class="nb">isinstance</span><span class="p">(</span><span class="n">item</span><span class="p">,</span> <span class="nb">str</span><span class="p">)</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">variable</span><span class="p">),</span> <span class="s2">&quot;variable should be a list of strings&quot;</span>
+
+        <span class="n">need_convert</span> <span class="o">=</span> <span class="p">(</span><span class="n">geography</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">==</span><span class="s1">&#39;zip&#39;</span><span class="p">)</span>  
+        <span class="n">v</span> <span class="o">=</span> <span class="n">variable</span>
+        
+        <span class="k">if</span> <span class="n">need_convert</span> <span class="o">==</span> <span class="kc">False</span><span class="p">:</span>
+            <span class="n">ans</span> <span class="o">=</span> <span class="n">census_data</span><span class="p">(</span><span class="n">year</span><span class="o">=</span><span class="n">year</span><span class="p">,</span><span class="n">variable</span><span class="o">=</span><span class="n">v</span><span class="p">,</span><span class="n">area_code</span> <span class="o">=</span> <span class="n">area_code</span><span class="p">)</span>    
+            
+        <span class="k">else</span> <span class="p">:</span>
+        
+            <span class="n">est</span> <span class="o">=</span> <span class="n">label_list</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">label_list</span><span class="p">[</span><span class="s1">&#39;Name&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="p">,:]</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+
+            <span class="n">codemap</span> <span class="o">=</span> <span class="n">get_code</span><span class="p">(</span><span class="n">area_code</span><span class="p">,</span><span class="n">level</span><span class="o">=</span><span class="n">geography</span><span class="p">)[[</span><span class="s1">&#39;ZCTA&#39;</span><span class="p">,</span><span class="s1">&#39;ZIP&#39;</span><span class="p">]]</span>
+            <span class="n">conv_code</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">codemap</span><span class="p">[</span><span class="s1">&#39;ZCTA&#39;</span><span class="p">])</span>
+
+            <span class="n">df1</span> <span class="o">=</span> <span class="n">get_code</span><span class="p">(</span><span class="n">conv_code</span><span class="p">,</span><span class="n">level</span><span class="o">=</span><span class="s1">&#39;ZCTA&#39;</span><span class="p">)[[</span><span class="s1">&#39;ZCTA&#39;</span><span class="p">,</span><span class="s1">&#39;ZIP&#39;</span><span class="p">]]</span>
+            <span class="n">num</span> <span class="o">=</span> <span class="n">df1</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;ZCTA&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">count</span><span class="p">()</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;ZIP&#39;</span><span class="p">:</span><span class="s1">&#39;NUM&#39;</span><span class="p">})</span>
+            <span class="n">df2</span> <span class="o">=</span> <span class="n">census_data</span><span class="p">(</span><span class="n">year</span><span class="o">=</span><span class="n">year</span><span class="p">,</span><span class="n">variable</span><span class="o">=</span><span class="n">v</span><span class="p">,</span><span class="n">area_code</span> <span class="o">=</span> <span class="n">conv_code</span><span class="p">)</span>
+
+            <span class="n">merge_data</span> <span class="o">=</span> <span class="n">df1</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">df2</span><span class="p">,</span><span class="n">on</span><span class="o">=</span><span class="s2">&quot;ZCTA&quot;</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="s2">&quot;left&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">num</span><span class="p">,</span><span class="n">on</span><span class="o">=</span><span class="s2">&quot;ZCTA&quot;</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="s2">&quot;left&quot;</span><span class="p">)</span>
+
+            <span class="k">for</span> <span class="n">i</span><span class="p">,</span><span class="n">var</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">v</span><span class="p">):</span>
+                <span class="k">if</span> <span class="n">est</span><span class="p">[</span><span class="s1">&#39;estimate&#39;</span><span class="p">][</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;percent&#39;</span><span class="p">:</span>
+                    <span class="n">merge_data</span><span class="p">[</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">var</span><span class="si">}</span><span class="s1">_ZIP&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">merge_data</span><span class="p">[</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">var</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">]</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">merge_data</span><span class="p">[</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">var</span><span class="si">}</span><span class="s1">_ZIP&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">merge_data</span><span class="p">[</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">var</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">]</span><span class="o">/</span><span class="n">merge_data</span><span class="p">[</span><span class="s1">&#39;NUM&#39;</span><span class="p">]</span>
+            
+            <span class="n">ans</span> <span class="o">=</span> <span class="n">merge_data</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">merge_data</span><span class="p">[</span><span class="s1">&#39;ZIP&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">area_code</span><span class="p">)</span> <span class="p">,</span> <span class="n">merge_data</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="s1">&#39;ZIP&#39;</span><span class="p">)]</span>
+        
+        <span class="k">return</span> <span class="p">(</span><span class="n">ans</span><span class="p">)</span>     </div>
+
+
+
+<div class="viewcode-block" id="search.business"><a class="viewcode-back" href="../../autoapi/community_ry2403/community_ry2403/index.html#community_ry2403.community_ry2403.search.business">[docs]</a>    <span class="k">def</span> <span class="nf">business</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">area_code</span><span class="p">,</span><span class="n">geography</span><span class="p">,</span><span class="n">year</span><span class="p">,</span> <span class="n">variable</span><span class="p">,</span><span class="n">industry</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        A function to get community business data with customized report level (ZIP / ZCTA) from Zip Code Businiss Pattern(ZCBP) and Community Business Pattern(CBP) API.</span>
+<span class="sd">        If report level is ZIP, keep the original value.</span>
+<span class="sd">        If report level is ZCTA, for percent data, use the mean estimate within the correspondent ZIP areas, </span>
+<span class="sd">        and for absolute data, use the sum estimate within correspondent ZIP areas.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        area_code: a list of strings</span>
+<span class="sd">            ZIP code or ZCTA code</span>
+<span class="sd">        geography: str</span>
+<span class="sd">            data reported level: ZIP or ZCTA; case-insensitive.</span>
+<span class="sd">        year: int</span>
+<span class="sd">            data reported year</span>
+<span class="sd">        variable: a list of strings </span>
+<span class="sd">            variable codes of data</span>
+<span class="sd">        industry: int</span>
+<span class="sd">            NAICS 2017 Code identifying which industry of business data you wish to get</span>
+
+<span class="sd">        Returns</span>
+<span class="sd">        ----------</span>
+<span class="sd">        A pandas dataframe containing the report level, the area code and values you looked up</span>
+
+
+<span class="sd">        Examples</span>
+<span class="sd">        ----------</span>
+<span class="sd">        &gt;&gt;&gt; area_code = [&#39;79925&#39;,&#39;10025&#39;]</span>
+<span class="sd">        &gt;&gt;&gt; geography = &#39;Zcta&#39;</span>
+<span class="sd">        &gt;&gt;&gt; year = 2019</span>
+<span class="sd">        &gt;&gt;&gt; variable = [&#39;ESTAB&#39;,&#39;EMP_N&#39;,&#39;PAYQTR1_N&#39;]</span>
+<span class="sd">        &gt;&gt;&gt; industry=72</span>
+<span class="sd">        &gt;&gt;&gt; business(area_code, geography ,year, variable, industry)</span>
+
+<span class="sd">        [OUT] ZCTA	PAYQTR1_N_ZCTA	EMP_N_ZCTA	ESTAB_ZCTA</span>
+<span class="sd">            0	10025	0	0	255</span>
+<span class="sd">            1	79925	0	0	214</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">assert</span> <span class="nb">all</span><span class="p">(</span><span class="nb">isinstance</span><span class="p">(</span><span class="n">item</span><span class="p">,</span> <span class="nb">str</span><span class="p">)</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">area_code</span><span class="p">),</span> <span class="s2">&quot;area_code should be a list of strings&quot;</span>
+        <span class="k">assert</span> <span class="n">geography</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="ow">in</span><span class="p">([</span><span class="s1">&#39;zip&#39;</span><span class="p">,</span><span class="s1">&#39;zcta&#39;</span><span class="p">]),</span> <span class="sa">f</span><span class="s2">&quot;Data can only be reported by ZCTA or ZIP level, but geography is </span><span class="si">{</span><span class="n">geography</span><span class="si">}</span><span class="s2">.&quot;</span>
+        <span class="k">assert</span> <span class="nb">type</span><span class="p">(</span><span class="n">year</span><span class="p">)</span><span class="o">==</span><span class="nb">int</span><span class="p">,</span><span class="s1">&#39;year should be an integer&#39;</span>
+        <span class="k">assert</span> <span class="nb">all</span><span class="p">(</span><span class="nb">isinstance</span><span class="p">(</span><span class="n">item</span><span class="p">,</span> <span class="nb">str</span><span class="p">)</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">variable</span><span class="p">),</span> <span class="s2">&quot;variable should be a list of strings&quot;</span>
+        <span class="k">assert</span> <span class="nb">type</span><span class="p">(</span><span class="n">industry</span><span class="p">)</span><span class="o">==</span><span class="nb">int</span><span class="p">,</span><span class="s1">&#39;industry code should be an integer&#39;</span>
+
+        <span class="n">need_convert</span> <span class="o">=</span> <span class="p">(</span><span class="n">geography</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">==</span><span class="s1">&#39;zcta&#39;</span><span class="p">)</span>  
+        <span class="n">v</span> <span class="o">=</span> <span class="n">variable</span>
+        
+        <span class="k">if</span> <span class="n">need_convert</span> <span class="o">==</span> <span class="kc">False</span><span class="p">:</span>
+            <span class="n">ans</span> <span class="o">=</span> <span class="n">business_data</span><span class="p">(</span><span class="n">year</span><span class="o">=</span><span class="n">year</span><span class="p">,</span><span class="n">variable</span><span class="o">=</span><span class="n">v</span><span class="p">,</span><span class="n">area_code</span> <span class="o">=</span> <span class="n">area_code</span><span class="p">,</span><span class="n">industry</span><span class="o">=</span><span class="n">industry</span><span class="p">)</span>    
+            
+        <span class="k">else</span> <span class="p">:</span>
+            <span class="n">est</span> <span class="o">=</span> <span class="n">label_list</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">label_list</span><span class="p">[</span><span class="s1">&#39;Name&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="p">,:]</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+
+            <span class="n">df1</span> <span class="o">=</span> <span class="n">get_code</span><span class="p">(</span><span class="n">area_code</span><span class="p">,</span><span class="n">level</span><span class="o">=</span><span class="s1">&#39;ZCTA&#39;</span><span class="p">)[[</span><span class="s1">&#39;ZCTA&#39;</span><span class="p">,</span><span class="s1">&#39;ZIP&#39;</span><span class="p">]]</span>
+            <span class="n">conv_code</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;ZIP&#39;</span><span class="p">])</span>
+            <span class="n">df2</span> <span class="o">=</span> <span class="n">business_data</span><span class="p">(</span><span class="n">year</span><span class="o">=</span><span class="n">year</span><span class="p">,</span><span class="n">variable</span><span class="o">=</span><span class="n">v</span><span class="p">,</span><span class="n">area_code</span><span class="o">=</span><span class="n">conv_code</span><span class="p">,</span><span class="n">industry</span><span class="o">=</span><span class="n">industry</span><span class="p">)</span>
+            <span class="n">merge_data</span> <span class="o">=</span> <span class="n">df1</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">df2</span><span class="p">,</span><span class="n">on</span><span class="o">=</span><span class="s2">&quot;ZIP&quot;</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="s2">&quot;right&quot;</span><span class="p">)</span>
+
+            <span class="n">a</span> <span class="o">=</span> <span class="n">merge_data</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span><span class="n">merge_data</span><span class="o">.</span><span class="n">columns</span><span class="o">!=</span><span class="s1">&#39;ZIP&#39;</span><span class="p">]</span>
+            <span class="n">ans</span> <span class="o">=</span> <span class="n">merge_data</span><span class="p">[[</span><span class="s1">&#39;ZCTA&#39;</span><span class="p">]]</span>
+
+            <span class="k">for</span> <span class="n">i</span><span class="p">,</span><span class="n">var</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">v</span><span class="p">):</span>
+                <span class="k">if</span> <span class="n">est</span><span class="p">[</span><span class="s1">&#39;estimate&#39;</span><span class="p">][</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;percent&#39;</span><span class="p">:</span>
+                    <span class="n">t</span> <span class="o">=</span> <span class="n">a</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;ZCTA&#39;</span><span class="p">])[[</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">var</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">var</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">:</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">var</span><span class="si">}</span><span class="s1">_ZCTA&#39;</span><span class="p">})</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">t</span> <span class="o">=</span> <span class="n">a</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;ZCTA&#39;</span><span class="p">])[[</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">var</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">var</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">:</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">var</span><span class="si">}</span><span class="s1">_ZCTA&#39;</span><span class="p">})</span>
+                <span class="n">ans</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">ans</span><span class="p">,</span><span class="n">on</span><span class="o">=</span><span class="s1">&#39;ZCTA&#39;</span><span class="p">,</span><span class="n">how</span><span class="o">=</span><span class="s1">&#39;left&#39;</span><span class="p">)</span>
+        <span class="k">return</span><span class="p">(</span><span class="n">ans</span><span class="p">)</span></div></div>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, Renfang Yang.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
