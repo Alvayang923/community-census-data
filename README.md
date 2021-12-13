@@ -1,7 +1,6 @@
-community_ry2403
-=============
-
 Final Project of Modern Data Struture (GR5072)
+=============
+community_ry2403
 =============
 
 A Python package for aggregating community-level Census Data.
