@@ -22,37 +22,6 @@ ACS API data are reported on ZIP Code Tabulation Areas(ZCTA) level while others 
 The package allows users to get data from API and provides some tools for converting the report level.   
 
 
-
-
-数据转换方式 Methology 
-------------
-* 对于ACS数据
-    - 若数据汇总单位为ZCTA，保留原值。
-    - 若数据汇总单位为ZIP Codes， 
-        - 对于百分比数据，使用对应ZCTA区域的原值, 
-        - 对于绝对值数据，使用对应ZCTA区域数据的平均值作为估计。
-
-* 对于商业数据（CBP，ZCBP）
-    - 若数据汇总单位为ZIP Codes，保留原值。
-    - 若数据汇总单位为ZCTA， 
-        - 对于百分比数据，使用对应ZIP Code区域数据的平均值作为估计。
-        - 对于绝对值数据，使用对应ZIP Code区域数据之和作为估计。
-
-
-How to convert?
-* For census data (from ACS)
-    - If report level is ZCTA, keep the original value.
-    - If report level is ZIP, 
-        - for percent data, use the original value within the correspondent ZCTA area, 
-        - for absolute number, use the mean estimate within correspondent ZCTA area.
-
-* For business data (from CBP,ZCBP)
-    - If report level is ZIP, keep the original value.
-    - If report level is ZCTA, 
-        - for percent data, use the mean estimate within the correspondent ZIP areas, 
-        - for absolute number, use the sum estimate within correspondent ZIP areas.
-
-
 安装方式 Installing 
 ----------
 适用于Python 3.9版本以上，安装语句：
@@ -121,6 +90,34 @@ v=['DP02_0001E','DP02_0002E','DP02_0003PE']
 api.census(area_code=['10025','10036'],geography='zip',year=2019, variable=v)
 ```
 
+
+数据转换方式 Methology 
+------------
+* 对于ACS数据
+    - 若数据汇总单位为ZCTA，保留原值。
+    - 若数据汇总单位为ZIP Codes， 
+        - 对于百分比数据，使用对应ZCTA区域的原值, 
+        - 对于绝对值数据，使用对应ZCTA区域数据的平均值作为估计。
+
+* 对于商业数据（CBP，ZCBP）
+    - 若数据汇总单位为ZIP Codes，保留原值。
+    - 若数据汇总单位为ZCTA， 
+        - 对于百分比数据，使用对应ZIP Code区域数据的平均值作为估计。
+        - 对于绝对值数据，使用对应ZIP Code区域数据之和作为估计。
+
+
+How to convert?
+* For census data (from ACS)
+    - If report level is ZCTA, keep the original value.
+    - If report level is ZIP, 
+        - for percent data, use the original value within the correspondent ZCTA area, 
+        - for absolute number, use the mean estimate within correspondent ZCTA area.
+
+* For business data (from CBP,ZCBP)
+    - If report level is ZIP, keep the original value.
+    - If report level is ZCTA, 
+        - for percent data, use the mean estimate within the correspondent ZIP areas, 
+        - for absolute number, use the sum estimate within correspondent ZIP areas.
 
 
 
