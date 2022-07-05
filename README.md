@@ -2,7 +2,7 @@
 ------------
  <br />
  
-A Python package for aggregating community-level Census Data
+A Python package for aggregating community-level census data
 
  <br />
  
